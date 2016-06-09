@@ -1,3 +1,3 @@
 plecko
 ======
-Ontology learning system
+
