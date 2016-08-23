@@ -1,0 +1,14 @@
+org/epnoi/knowledgebase/model/RelationsBuilder$SteppedBuilder.class
+org/epnoi/knowledgebase/storage/KnowledgeBaseRepository.class
+org/epnoi/knowledgebase/model/RelationsBuilder$SourceStep.class
+org/epnoi/knowledgebase/model/RelationsBuilder$RelationStep.class
+org/epnoi/knowledgebase/model/RelationsBuilder$BuildStep.class
+org/epnoi/knowledgebase/model/Relation.class
+org/epnoi/knowledgebase/model/RelationsBuilder$1.class
+org/epnoi/knowledgebase/KnowledgeBaseApp.class
+org/epnoi/knowledgebase/config/Neo4JConfig.class
+org/epnoi/knowledgebase/model/RelationsBuilder$TargetStep.class
+org/epnoi/knowledgebase/service/rest/KnowledgeBaseService.class
+org/epnoi/knowledgebase/model/RelatedResult.class
+org/epnoi/knowledgebase/model/RelationsBuilder.class
+org/epnoi/knowledgebase/model/Concept.class
