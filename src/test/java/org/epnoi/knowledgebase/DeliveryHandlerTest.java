@@ -1,22 +1,17 @@
 package org.epnoi.knowledgebase;
 
-import org.epnoi.plecko.model.DeliveryHandler;
+import org.epnoi.plecko.model.modules.DeliveryHandler;
 import org.epnoi.plecko.model.User;
 import org.epnoi.plecko.model.UsersRepository;
 import org.epnoi.plecko.model.exceptions.UserNotFoundException;
 import org.junit.Before;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TestRule;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.transaction.BeforeTransaction;
 
 import java.util.Arrays;
 
-import static org.mockito.Matchers.contains;
 import static org.mockito.Mockito.when;
 
 /**
