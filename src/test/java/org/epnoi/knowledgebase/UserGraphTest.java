@@ -11,7 +11,10 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.is;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.beans.HasPropertyWithValue.hasProperty;
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = PleckoApp.class)
@@ -32,12 +35,12 @@ public class UserGraphTest {
 
     }
 
-
     @Test
     public void testGraph() {
        repository.save(testUser);
         User retrievedUser =repository.getUser(TEST_USER_EMAIL);
-        assertThat(retrievedUser, is(testUser));
+        assertThat(retrievedUser, hasProperty("mail", equalTo(TEST_USER_EMAIL)));
     }
+
 
 }

@@ -1,5 +1,6 @@
-package org.epnoi.plecko.model;
+package org.epnoi.plecko.model.modules;
 
+import org.epnoi.plecko.model.User;
 import org.epnoi.plecko.model.exceptions.UserNotFoundException;
 
 /**
