@@ -1,9 +1,6 @@
 package org.epnoi.plecko.storage;
 
-import org.epnoi.plecko.model.Concept;
-import org.epnoi.plecko.model.RelatedResult;
-import org.epnoi.plecko.model.Relation;
-import org.epnoi.plecko.model.User;
+import org.epnoi.plecko.domain.User;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.GraphRepository;
 import org.springframework.data.repository.query.Param;

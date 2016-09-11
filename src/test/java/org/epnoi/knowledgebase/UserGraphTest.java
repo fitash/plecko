@@ -1,7 +1,7 @@
 package org.epnoi.knowledgebase;
 
 import org.epnoi.plecko.PleckoApp;
-import org.epnoi.plecko.model.User;
+import org.epnoi.plecko.domain.User;
 import org.epnoi.plecko.storage.UsersGraphRepository;
 import org.junit.Before;
 import org.junit.Test;

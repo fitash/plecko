@@ -1,1 +1,4 @@
-/opt/epnoi/knowledgeBase/src/test/java/org/epnoi/knowledgebase/KnowledgeBaseGraphTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/InformationFeedHarvesterTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/DeliveryHandlerTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/UserGraphTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/UserRepositoryTest.java

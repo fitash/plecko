@@ -1,5 +1,5 @@
 server:
-  contextPath: /knowledgebase
+  contextPath: /plecko
   port: 8080
 
 

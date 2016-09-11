@@ -18,7 +18,7 @@ public class Neo4JConfig extends Neo4jConfiguration {
     @Bean
     public SessionFactory getSessionFactory() {
         // with domain entity base package(s)
-        return new SessionFactory("org.epnoi.knowledgebase.model");
+        return new SessionFactory("org.epnoi.knowledgebase.domain");
     }
 
 

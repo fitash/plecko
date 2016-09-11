@@ -1,11 +1,11 @@
 package org.epnoi.knowledgebase;
 
 import org.epnoi.plecko.PleckoApp;
-import org.epnoi.plecko.model.Aggregation;
-import org.epnoi.plecko.model.Item;
-import org.epnoi.plecko.model.User;
-import org.epnoi.plecko.model.exceptions.UserNotFoundException;
-import org.epnoi.plecko.model.modules.*;
+import org.epnoi.plecko.domain.Aggregation;
+import org.epnoi.plecko.domain.Item;
+import org.epnoi.plecko.domain.User;
+import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
+import org.epnoi.plecko.domain.modules.*;
 import org.hamcrest.beans.HasPropertyWithValue;
 import org.junit.Before;
 import org.junit.Rule;
@@ -67,8 +67,8 @@ public class DeliveryHandlerTest {
 
 
 
-        Item itemA = new Item("uriA", "contentA");
-        Item itemB = new Item("uriB", "contentB");
+        Item itemA = new Item("uriA","uriA", "contentA");
+        Item itemB = new Item("uriB","uriA", "contentB");
 
         List<Item> items = Arrays.asList(itemA, itemB);
 

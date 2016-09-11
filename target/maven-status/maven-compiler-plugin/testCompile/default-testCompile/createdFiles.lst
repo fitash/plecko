@@ -1,1 +1,4 @@
-org/epnoi/knowledgebase/KnowledgeBaseGraphTest.class
+org/epnoi/knowledgebase/InformationFeedHarvesterTest.class
+org/epnoi/knowledgebase/DeliveryHandlerTest.class
+org/epnoi/knowledgebase/UserGraphTest.class
+org/epnoi/knowledgebase/UserRepositoryTest.class
