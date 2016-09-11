@@ -1,11 +1,11 @@
-package org.epnoi.plecko.harvester.rss;
+package org.epnoi.plecko.harvester.rss.extractors;
 
 import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.SyndFeedInput;
 import com.rometools.rome.io.XmlReader;
 import org.apache.http.HttpEntity;
 import org.epnoi.plecko.domain.exceptions.RetrievalException;
-
+import org.epnoi.plecko.harvester.rss.extractors.EntityExtractor;
 
 import java.io.InputStream;
 
@@ -18,8 +18,6 @@ public class FeedExtractor implements EntityExtractor<SyndFeed> {
 
         try {
             InputStream stream = entity.getContent();
-
-
             SyndFeedInput input = new SyndFeedInput();
             SyndFeed feed = input.build(new XmlReader(stream));
             return feed;

@@ -5,21 +5,21 @@ package org.epnoi.plecko.domain;
  */
 public class Item {
 
-
     private String uri;
-
-    public String getUrl() {
-        return url;
-    }
-
     private String url;
     private String content;
+    private String description;
 
-    public Item(String uri, String url, String content) {
+    public Item(String uri, String url, String content, String description) {
         this.uri = uri;
+        this.url = url;
         this.content = content;
+        this.description = description;
     }
 
+    public String getDescription() {
+        return description;
+    }
 
     public String getUri() {
         return uri;
@@ -37,11 +37,15 @@ public class Item {
         this.content = content;
     }
 
+    public String getUrl() {
+        return url;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
                 "uri='" + uri + '\'' +
-                ", content='" + content + '\'' +
+                ", extractContentFromHTML='" + content + '\'' +
                 '}';
     }
 }

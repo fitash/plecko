@@ -6,8 +6,8 @@ import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultRedirectStrategy;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.client.LaxRedirectStrategy;
 import org.epnoi.plecko.domain.exceptions.RetrievalException;
+import org.epnoi.plecko.harvester.rss.extractors.EntityExtractor;
 
 import java.io.IOException;
 

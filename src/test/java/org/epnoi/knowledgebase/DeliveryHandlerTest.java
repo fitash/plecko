@@ -67,8 +67,8 @@ public class DeliveryHandlerTest {
 
 
 
-        Item itemA = new Item("uriA","uriA", "contentA");
-        Item itemB = new Item("uriB","uriA", "contentB");
+        Item itemA = new Item("uriA","uriA","descriptionA", "contentA");
+        Item itemB = new Item("uriB","uriA","descriptionB", "contentB");
 
         List<Item> items = Arrays.asList(itemA, itemB);
 

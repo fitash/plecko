@@ -1,8 +1,11 @@
 package org.epnoi.plecko.service.rest;
+
 import org.epnoi.plecko.domain.FeedState;
 import org.epnoi.plecko.harvester.rss.RSSFeedHarvester;
-import org.springframework.boot.autoconfigure.*;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration

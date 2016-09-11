@@ -1,6 +1,9 @@
 package org.epnoi.plecko.domain.modules;
 
-import org.epnoi.plecko.domain.*;
+import org.epnoi.plecko.domain.Aggregation;
+import org.epnoi.plecko.domain.DeliveryResponse;
+import org.epnoi.plecko.domain.Item;
+import org.epnoi.plecko.domain.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -44,7 +47,7 @@ public class DeliveryHandler {
         System.out.println();
         System.out.println();
         System.out.println();
-        System.out.println("Delivering content to user " + user);
+        System.out.println("Delivering extractContentFromHTML to user " + user);
         System.out.println();
         System.out.println();System.out.println();
 

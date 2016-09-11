@@ -4,7 +4,8 @@ import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
 import org.epnoi.plecko.domain.FeedState;
 import org.epnoi.plecko.domain.Item;
-import org.epnoi.plecko.domain.exceptions.RetrievalException;
+import org.epnoi.plecko.harvester.rss.extractors.FeedExtractor;
+import org.epnoi.plecko.harvester.rss.extractors.TikaExtractor;
 
 /**
  * Created by fitash on 5/09/16.
@@ -39,11 +40,14 @@ public class RSSFeedHarvester {
                 String content = this.contentRetriever.retrieve(entry.getUri());
                 String cleanedContent = ContentCleaner.clean(content);
 
-                System.out.println();
-                System.out.println("AQUI----------------------------------------------------------------------------");
-                System.out.println();
-                //System.out.println(cleanedContent);
-                Item item = new Item(entry.getUri(),entry.getLink(), cleanedContent);
+                String description = entry.getDescription().getValue();
+
+                String eso =TikaHelper.extractContentFromHTML(description);
+                System.out.println("=========================================================================================================");
+                System.out.println("==================>> "+eso);
+                System.out.println("=========================================================================================================");
+
+                Item item = new Item(entry.getUri(),entry.getLink(),description, cleanedContent);
                 String value = entry.getDescription().getValue();
                 value = ContentCleaner.clean(value);
                 System.out.println("--> "+ value);
@@ -51,7 +55,7 @@ public class RSSFeedHarvester {
 
             }
             return feedState;
-        } catch (RetrievalException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return new FeedState();

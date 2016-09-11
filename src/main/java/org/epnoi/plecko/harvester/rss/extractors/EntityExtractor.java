@@ -1,4 +1,4 @@
-package org.epnoi.plecko.harvester.rss;
+package org.epnoi.plecko.harvester.rss.extractors;
 
 import org.apache.http.HttpEntity;
 import org.epnoi.plecko.domain.exceptions.RetrievalException;

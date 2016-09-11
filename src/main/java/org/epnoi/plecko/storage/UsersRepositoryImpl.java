@@ -1,8 +1,8 @@
 package org.epnoi.plecko.storage;
 
 import org.epnoi.plecko.domain.User;
-import org.epnoi.plecko.domain.modules.UsersRepository;
 import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
+import org.epnoi.plecko.domain.modules.UsersRepository;
 
 /**
  * Created by fitash on 25/08/16.
