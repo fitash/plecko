@@ -1,9 +1,13 @@
 package org.epnoi.plecko.domain;
 
+import org.neo4j.ogm.annotation.GraphId;
+
 /**
  * Created by fitash on 25/08/16.
  */
 public class User {
+    @GraphId
+    private Long id;
     private String name;
     private String email;
 

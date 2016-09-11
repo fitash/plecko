@@ -2,10 +2,14 @@ package org.epnoi.plecko.harvester.rss;
 
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
+import org.apache.tika.exception.TikaException;
 import org.epnoi.plecko.domain.FeedState;
 import org.epnoi.plecko.domain.Item;
 import org.epnoi.plecko.harvester.rss.extractors.FeedExtractor;
 import org.epnoi.plecko.harvester.rss.extractors.TikaExtractor;
+import org.xml.sax.SAXException;
+
+import java.io.IOException;
 
 /**
  * Created by fitash on 5/09/16.
@@ -35,22 +39,7 @@ public class RSSFeedHarvester {
             FeedState feedState = new FeedState();
             SyndFeed syndFeed = feedRetriever.retrieve(url);
             for (SyndEntry entry : syndFeed.getEntries()) {
-
-
-                String content = this.contentRetriever.retrieve(entry.getUri());
-                String cleanedContent = ContentCleaner.clean(content);
-
-                String description = entry.getDescription().getValue();
-
-                String eso =TikaHelper.extractContentFromHTML(description);
-                System.out.println("=========================================================================================================");
-                System.out.println("==================>> "+eso);
-                System.out.println("=========================================================================================================");
-
-                Item item = new Item(entry.getUri(),entry.getLink(),description, cleanedContent);
-                String value = entry.getDescription().getValue();
-                value = ContentCleaner.clean(value);
-                System.out.println("--> "+ value);
+                Item item = generatetItem(entry);
                 feedState.addItem(item);
 
             }
@@ -61,12 +50,17 @@ public class RSSFeedHarvester {
         return new FeedState();
     }
 
-    public static void main(String[] args) {
-       // String url = "http://rss.slashdot.org/Slashdot/slashdot";
+    private Item generatetItem(SyndEntry entry) throws org.epnoi.plecko.domain.exceptions.RetrievalException, TikaException, SAXException, IOException {
+        String content = this.contentRetriever.retrieve(entry.getUri());
+        String cleanedContent = ContentCleaner.clean(content);
 
-        String url = "http://www.microsiervos.com/index.xml";
-        RSSFeedHarvester harvester = new RSSFeedHarvester();
-        FeedState feedState=harvester.harvest(url);
-       // System.out.println("------> "+feedState);
+        String description = entry.getDescription().getValue();
+
+        String cleanedDescription = TikaHelper.extractContentFromHTML(description);
+
+
+        return new Item(entry.getUri(),entry.getLink(),cleanedDescription, cleanedContent);
     }
+
+
 }
