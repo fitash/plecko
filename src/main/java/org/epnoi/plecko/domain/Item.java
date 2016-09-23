@@ -1,14 +1,22 @@
 package org.epnoi.plecko.domain;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
 /**
  * Created by rgonza on 28/8/16.
  */
+@Document(indexName = "item", type = "item")
 public class Item {
 
+    @Id
     private String uri;
     private String url;
     private String content;
     private String description;
+
+    public Item() {
+    }
 
     public Item(String uri, String url, String content, String description) {
         this.uri = uri;
@@ -42,10 +50,35 @@ public class Item {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Item item = (Item) o;
+
+        if (!uri.equals(item.uri)) return false;
+        if (!url.equals(item.url)) return false;
+        if (!content.equals(item.content)) return false;
+        return description.equals(item.description);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = uri.hashCode();
+        result = 31 * result + url.hashCode();
+        result = 31 * result + content.hashCode();
+        result = 31 * result + description.hashCode();
+        return result;
+    }
+
+    @Override
     public String toString() {
         return "Item{" +
                 "uri='" + uri + '\'' +
-                ", extractContentFromHTML='" + content + '\'' +
+                ", url='" + url + '\'' +
+                ", content='" + content + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }

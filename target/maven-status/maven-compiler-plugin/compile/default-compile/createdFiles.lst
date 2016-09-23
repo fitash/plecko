@@ -1,15 +1,12 @@
 org/epnoi/plecko/domain/modules/DeliveryHandler.class
 org/epnoi/plecko/storage/KnowledgeBaseRepository.class
 org/epnoi/plecko/domain/Item.class
-org/epnoi/plecko/domain/services.class
-org/epnoi/plecko/harvester/rss/FeedExtractor.class
 org/epnoi/plecko/config/Neo4JConfig.class
 org/epnoi/plecko/domain/modules/NumberAssigner.class
 org/epnoi/plecko/storage/UsersRepositoryImpl.class
 org/epnoi/plecko/domain/RelationsBuilder$RelationStep.class
 org/epnoi/plecko/domain/RelationsBuilder$1.class
 org/epnoi/plecko/domain/modules/UserRepositoryImpl.class
-org/epnoi/plecko/harvester/rss/TikaExtractor.class
 org/epnoi/plecko/domain/modules/InformationFeedRetriever.class
 org/epnoi/plecko/PleckoApp.class
 org/epnoi/plecko/domain/modules/InformationItemsRetrieverImpl.class
@@ -25,7 +22,6 @@ org/epnoi/plecko/domain/exceptions/RetrievalException.class
 org/epnoi/plecko/harvester/rss/RSSFeedHarvester.class
 org/epnoi/plecko/domain/modules/AggregationsCreatorImpl.class
 org/epnoi/plecko/domain/Feed.class
-org/epnoi/plecko/storage/UsersGraphRepository.class
 org/epnoi/plecko/domain/modules/AgregationsDeliverer.class
 org/epnoi/plecko/domain/Concept.class
 org/epnoi/plecko/domain/RelationsBuilder$SourceStep.class
@@ -39,10 +35,8 @@ org/epnoi/plecko/domain/modules/UsersRepository.class
 org/epnoi/plecko/domain/RelationsBuilder$SteppedBuilder.class
 org/epnoi/plecko/domain/Aggregation.class
 org/epnoi/plecko/domain/RelatedResult.class
-org/epnoi/plecko/harvester/rss/EntityExtractor.class
 org/epnoi/plecko/harvester/rss/ContentCleaner.class
 org/epnoi/plecko/domain/Relation.class
 org/epnoi/plecko/domain/modules/InformationFeedState.class
 org/epnoi/plecko/domain/modules/AggregationsCreator.class
 org/epnoi/plecko/domain/UserBuilder.class
-org/epnoi/plecko/harvester/rss/RSSFeedRetriever.class

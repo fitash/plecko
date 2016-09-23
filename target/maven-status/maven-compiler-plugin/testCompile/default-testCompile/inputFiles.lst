@@ -1,4 +1,6 @@
-/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/InformationFeedHarvesterTest.java
-/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/DeliveryHandlerTest.java
-/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/UserGraphTest.java
-/opt/epnoi/plecko/src/test/java/org/epnoi/knowledgebase/UserRepositoryTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/InformationFeedHarvesterTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/UserGraphTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/UserRepositoryTest.java
+/opt/epnoi/plecko/src/test/java/org/epnoi/plecko/DeliveryHandlerTest.java

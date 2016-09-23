@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.epnoi.plecko.UserRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.488 sec <<< FAILURE! - in org.epnoi.plecko.UserRepositoryTest
+testGraph(org.epnoi.plecko.UserRepositoryTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: iterable containing [<[a]>]
+     but: item 0: was "a"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at org.epnoi.plecko.UserRepositoryTest.testGraph(UserRepositoryTest.java:50)
+

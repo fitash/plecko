@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: org.epnoi.plecko.DeliveryHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.119 sec <<< FAILURE! - in org.epnoi.plecko.DeliveryHandlerTest
+deliverTest(org.epnoi.plecko.DeliveryHandlerTest)  Time elapsed: 0.115 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+Checked exception is invalid for this method!
+Invalid: org.springframework.data.crossstore.ChangeSetPersister$NotFoundException
+	at org.epnoi.plecko.DeliveryHandlerTest.init(DeliveryHandlerTest.java:85)
+
+deliverTest2(org.epnoi.plecko.DeliveryHandlerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+Checked exception is invalid for this method!
+Invalid: org.springframework.data.crossstore.ChangeSetPersister$NotFoundException
+	at org.epnoi.plecko.DeliveryHandlerTest.init(DeliveryHandlerTest.java:85)
+
+deliverTest3(org.epnoi.plecko.DeliveryHandlerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+Checked exception is invalid for this method!
+Invalid: org.springframework.data.crossstore.ChangeSetPersister$NotFoundException
+	at org.epnoi.plecko.DeliveryHandlerTest.init(DeliveryHandlerTest.java:85)
+
