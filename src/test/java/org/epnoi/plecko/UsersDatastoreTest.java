@@ -44,8 +44,6 @@ public class UsersDatastoreTest {
               repository.save(testUser);
         MapId id = BasicMapId.id("email", TestConstants.TEST_USER_EMAIL+"whatever");
        User retrievedUser = repository.findOne(id);
-       System.out.println("retrieved>"+retrievedUser);
-
        assertThat(retrievedUser, is(nullValue()));
 
 
@@ -56,8 +54,6 @@ public class UsersDatastoreTest {
         repository.save(testUser);
         MapId id = BasicMapId.id("email", TestConstants.TEST_USER_EMAIL);
         User retrievedUser = repository.findOne(id);
-        System.out.println("retrieved>"+retrievedUser);
-
         assertThat(retrievedUser, is(equalTo(testUser)));
 
 

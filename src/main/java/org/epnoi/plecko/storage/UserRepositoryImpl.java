@@ -5,6 +5,8 @@ import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
 import org.epnoi.plecko.domain.modules.repositories.UsersRepository;
 import org.epnoi.plecko.storage.datastore.UsersDatastoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.cassandra.repository.MapId;
+import org.springframework.data.cassandra.repository.support.BasicMapId;
 import org.springframework.stereotype.Component;
 
 import java.util.Iterator;
@@ -21,12 +23,12 @@ public class UserRepositoryImpl implements UsersRepository {
 
     @Override
     public User getUser(String email) throws UserNotFoundException {
-
-        Iterator<User> iterator = repository.getUser(email).iterator();
-        if (iterator.hasNext()){
-            return iterator.next();
+        MapId id = BasicMapId.id("email", email);
+        User retrievedUser = repository.findOne(id);
+        if (retrievedUser!=null){
+            return retrievedUser;
         }else{
-            throw new UserNotFoundException();
+            throw new UserNotFoundException("User "+ email + " could not be found");
         }
     }
 
