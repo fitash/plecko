@@ -5,5 +5,6 @@ package org.epnoi.plecko.config;
  */
 public class Profiles {
     public static final String SEARCH = "search";
-    public static final String GRAPH = "graph";
+    public static final String DATASTORE ="datastore";
+
 }

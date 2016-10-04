@@ -1,18 +1,27 @@
 package org.epnoi.plecko.domain;
 
-import org.neo4j.ogm.annotation.GraphId;
+
+import org.springframework.cassandra.core.Ordering;
+import org.springframework.cassandra.core.PrimaryKeyType;
+import org.springframework.data.cassandra.mapping.PrimaryKey;
+import org.springframework.data.cassandra.mapping.PrimaryKeyColumn;
+import org.springframework.data.cassandra.mapping.Table;
+
+import java.util.UUID;
 
 /**
  * Created by fitash on 25/08/16.
  */
+
+@Table(value="user")
 public class User {
-    @GraphId
-    private Long id;
-    private String name;
+
+    @PrimaryKey
     private String email;
+    private String name;
 
 
-    public User(String name, String email) {
+    public User(String email,String name) {
         this.name = name;
         this.email = email;
     }

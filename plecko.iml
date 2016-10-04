@@ -21,10 +21,14 @@
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.13" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.13" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.16" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-elasticsearch:2.0.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-elasticsearch:1.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:4.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:4.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:4.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:4.10.4" level="project" />
@@ -54,7 +58,6 @@
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.3.1.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.30" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.0.30" level="project" />
@@ -68,37 +71,13 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-neo4j:4.1.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-ogm-http-driver:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.12.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-cassandra:1.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-cql:1.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.2.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.11.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.cassandra:cassandra-driver-dse:2.1.9" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.13" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.13" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-ogm-core:3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-ogm-embedded-driver:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-ogm-api:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-udc:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-jmx:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-consistency-check:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-consistency-check-legacy:2.3.4" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-cypher:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-kernel:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-graph-matching:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-graph-algo:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-cypher-commons:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-cypher-compiler-1.9:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-cypher-compiler-2.0:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.parboiled:parboiled-scala_2.10:1.1.6" level="project" />
-    <orderEntry type="library" name="Maven: org.parboiled:parboiled-core:1.1.6" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.10.3" level="project" />
-    <orderEntry type="library" name="Maven: org.neo4j:neo4j-lucene-index:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:3.6.2" level="project" />
     <orderEntry type="library" name="Maven: com.rometools:rome:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.rometools:rome-utils:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.jdom:jdom2:2.0.6" level="project" />
@@ -143,5 +122,9 @@
     <orderEntry type="library" name="Maven: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.uwyn:jhighlight:1.0" level="project" />
     <orderEntry type="library" name="Maven: com.pff:java-libpst:0.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.cassandra:cassandra-driver-core:2.1.5" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.9.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:14.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-core:3.0.2" level="project" />
   </component>
 </module>

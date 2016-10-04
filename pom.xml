@@ -21,10 +21,15 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <rome.version>1.6.0</rome.version>
-        <neo4j.version>3.0</neo4j.version>
+        <neo4j.version>3.0.1</neo4j.version>
         <tika.version>1.7</tika.version>
+        <spring-data-neo4j.version>4.1.3.RELEASE</spring-data-neo4j.version>
+        <ogm.version>2.0.4</ogm.version>
+        <org.springframework.data.version>1.3.2.RELEASE</org.springframework.data.version>
     </properties>
+    <!--
     <dependencyManagement>
+
         <dependencies>
             <dependency>
                 <groupId>org.springframework.data</groupId>
@@ -35,6 +40,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    -->
     <dependencies>
 
         <!--SpringBoot dependencies -->
@@ -49,7 +55,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+
         <dependency>
+
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
@@ -62,33 +70,11 @@
 
         <dependency>
             <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-neo4j</artifactId>
-            <version>4.1.2.RELEASE</version>
+            <artifactId>spring-data-cassandra</artifactId>
+            <version>${org.springframework.data.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-ogm-core</artifactId>
-            <version>${neo4j.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-ogm-embedded-driver</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-cypher</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-lucene-index</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-
+        <!-- RSS Rome -->
         <dependency>
             <groupId>com.rometools</groupId>
             <artifactId>rome</artifactId>
@@ -111,7 +97,17 @@
             <artifactId>tika-parsers</artifactId>
             <version>${tika.version}</version>
         </dependency>
-
+<!-- cassandra -->
+        <dependency>
+            <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-core</artifactId>
+            <version>2.1.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-cassandra</artifactId>
+            <version>${org.springframework.data.version}</version>
+        </dependency>
 
     </dependencies>
 

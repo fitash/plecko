@@ -4,6 +4,7 @@ import org.epnoi.plecko.domain.Aggregation;
 import org.epnoi.plecko.domain.DeliveryResponse;
 import org.epnoi.plecko.domain.Item;
 import org.epnoi.plecko.domain.User;
+import org.epnoi.plecko.domain.modules.repositories.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
