@@ -2,20 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf3c907-fac8-4a55-b1ca-4bcf463ee8af" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-37.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/0/_state/state-35.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/1/_state/state-33.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/_state/state-31.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/3/_state/state-34.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/4/_state/state-34.st" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/exceptions/PleckoException.class" afterPath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/exceptions/PleckoException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/exceptions/UserNotFoundException.class" afterPath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/exceptions/UserNotFoundException.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/0/index/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/0/translog/translog-1474498400209" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/1/index/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/1/translog/translog-1474498400209" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/_9.cfe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/_9.cfs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/_9.si" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/segments_b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/translog/translog-1474498400219" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/3/index/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/3/translog/translog-1474498400209" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/4/index/segments_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/4/translog/translog-1474498400276" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/1/_state/global-0.st" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/ContentCleaner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/HTTPRetriever.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/ItemGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/RSSFeedHarvester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/TikaHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/extractors/EntityExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/extractors/FeedExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/extractors/TikaExtractor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/Aggregation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/DeliveryResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/Feed.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/FeedState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/UserBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/AggregationsCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/AggregationsCreatorImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/AggregationsDelivererImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/AgregationsDeliverer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/DeliveryHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationFeedRetriever.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationFeedState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationItemsFilterer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationItemsFiltererImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationItemsRetriever.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/InformationItemsRetrieverImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/NumberAssigner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/domain/modules/repositories/ItemsSearchRespository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/ContentCleaner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/HTTPRetriever.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/ItemGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/RSSFeedHarvester.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/TikaHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/extractors/EntityExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/extractors/FeedExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/harvester/rss/extractors/TikaExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/service/rest/PelckoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/epnoi/plecko/storage/search/ItemsSearchRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.DeliveryHandlerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.InformationFeedHarvesterTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.ItemsSearchRepositoryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.RSSFeedHarvesterTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.UserGraphTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.epnoi.plecko.UserRepositoryTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.DeliveryHandlerTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.InformationFeedHarvesterTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.ItemsSearchRepositoryTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.RSSFeedHarvesterTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.UserGraphTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/org.epnoi.plecko.UserRepositoryTest.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Aggregation.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Aggregation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/DeliveryResponse.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/DeliveryResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Feed.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Feed.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/FeedState.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/FeedState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Item.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/UserBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/UserBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AggregationsCreator.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AggregationsCreator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AggregationsCreatorImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AggregationsCreatorImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AggregationsDelivererImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AggregationsDelivererImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AgregationsDeliverer.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AgregationsDeliverer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/DeliveryHandler.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/DeliveryHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationFeedRetriever.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationFeedRetriever.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationFeedState.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationFeedState.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationItemsFilterer.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationItemsFilterer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationItemsFiltererImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationItemsFiltererImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationItemsRetriever.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationItemsRetriever.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/InformationItemsRetrieverImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/InformationItemsRetrieverImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/NumberAssigner.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/NumberAssigner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/ItemsSearchRespository.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/repositories/ItemsSearchRespository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/UsersRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/repositories/UsersRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/service/rest/PelckoService.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/controllers/PelckoController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/UserRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/UserRepositoryImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/datastore/UsersDatastoreRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/datastore/UsersDatastoreRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/ItemsSearchRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/search/ItemsSearchRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/script.cwl" afterPath="$PROJECT_DIR$/src/main/resources/script.cql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/storage/UserRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/infrastructure/storage/UserRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/0/index/segments.gen" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/0/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/1/index/segments.gen" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/1/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/segments.gen" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/2/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/3/index/segments.gen" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/3/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/4/index/segments.gen" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/item/4/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/epnoi/plecko/ItemsSearchRepositoryTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/epnoi/plecko/ItemsSearchRepositoryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/epnoi/plecko/RSSFeedHarvesterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/epnoi/plecko/RSSFeedHarvesterTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plecko.iml" afterPath="$PROJECT_DIR$/plecko.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/CassandraConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/CassandraConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="plecko.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,105 +136,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeliveryCycleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AgregationsDeliverer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AgregationsDeliverer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aggregation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Aggregation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CassandraConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/CassandraConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="44" column="92" selection-start-line="44" selection-start-column="92" selection-end-line="44" selection-end-column="92" />
-              <folding>
-                <element signature="e#1582#1583#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersDatastoreRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/datastore/UsersDatastoreRepository.java">
+      <file leaf-file-name="ItemsSearchRepositoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserNotFoundException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PleckoException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java">
+      <file leaf-file-name="TestConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/TestConstants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PleckoApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/PleckoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PelckoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/controllers/PelckoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestAssured.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.1/rest-assured-3.0.1.jar!/io/restassured/RestAssured.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+              <folding>
+                <element signature="e#6885#6886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,9 +225,21 @@
       <file leaf-file-name="UsersDatastoreTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="44" column="45" selection-start-line="44" selection-start-column="5" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="54">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RSSFeedHarvesterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,37 +264,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/RSSFeedRetriever.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/knowledgebase/DeliveryHandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/TikaHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/RSSFeedHarvester.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/knowledgebase/RSSFeedHarvesterTest.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/knowledgebase/UserGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UsersRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/graph.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/ItemsSearchRespositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/graph/UsersGraphRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/ItemsSearchRespository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/ItemsSearchRespository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/ItemsRespository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsGraphRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearcgRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/ElasticsearchItemsSearchRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/ItemsSearchRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Item.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/Neo4JConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/ElasticsearchConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/UsersRegistry.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UsersRegistry.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UsersDatastoreRegistry.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UserGraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cassandra.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/script.cwl" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UsersDatastoreRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryHandlerTest.java" />
@@ -209,17 +279,42 @@
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/storage/UserRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserReporitory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/TestConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/Profiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/CassandraConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UserRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HttpClientWiremockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Aggregation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/DeliveryResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Feed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/FeedState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/rss/extractors/EntityExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/ContentCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/controllers/PelckoService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/ContentCleaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/ItemGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/TikaHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/EntityExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/FeedExtractor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/RSSFeedHarvester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/HTTPRetriever.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/TikaExtractor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/controllers/PelckoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ApplicationTest.java" />
       </list>
     </option>
   </component>
@@ -236,8 +331,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="104" />
+    <option name="x" value="13" />
+    <option name="y" value="25" />
     <option name="width" value="3689" />
     <option name="height" value="1999" />
   </component>
@@ -266,9 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,10 +404,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,10 +428,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repositories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,7 +505,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="infrastructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,80 +535,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="infrastructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plecko" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exceptions" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -549,7 +572,27 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UsersRepositoryTest.unknownUserRetrievalTest">
+  <component name="RunManager" selected="JUnit.ApplicationTest.testUser">
+    <configuration default="false" name="PleckoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.epnoi.plecko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.PleckoApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="plecko" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="UsersDatastoreTest.unknownUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -576,7 +619,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="UsersDatastoreTest.retrieveUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UsersDatastoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.epnoi.plecko.*" />
@@ -588,58 +631,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.epnoi.plecko" />
       <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.UsersDatastoreTest" />
-      <option name="METHOD_NAME" value="retrieveUserTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UsersRepositoryTest.correctStorageAndRetrieval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.epnoi.plecko.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="plecko" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.epnoi.plecko.repositories" />
-      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.repositories.UsersRepositoryTest" />
-      <option name="METHOD_NAME" value="correctStorageAndRetrieval" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UsersRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.epnoi.plecko.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="plecko" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.epnoi.plecko.repositories" />
-      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.repositories.UsersRepositoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -654,20 +645,46 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="UsersRepositoryTest.unknownUserRetrievalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ApplicationTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.epnoi.plecko.repositories.*" />
+          <option name="PATTERN" value="org.epnoi.plecko.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="plecko" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.epnoi.plecko.repositories" />
-      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.repositories.UsersRepositoryTest" />
-      <option name="METHOD_NAME" value="unknownUserRetrievalTest" />
+      <option name="PACKAGE_NAME" value="org.epnoi.plecko" />
+      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.ApplicationTest" />
+      <option name="METHOD_NAME" value="testUser" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.epnoi.plecko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="plecko" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.epnoi.plecko" />
+      <option name="MAIN_CLASS_NAME" value="org.epnoi.plecko.ApplicationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -925,19 +942,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.unknownUserTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.retrieveUserTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest.correctStorageAndRetrieval" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest.unknownUserRetrievalTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PleckoApp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.unknownUserTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ApplicationTest.testUser" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ApplicationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest.unknownUserRetrievalTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UsersRepositoryTest.correctStorageAndRetrieval" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.retrieveUserTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.unknownUserTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ApplicationTest.testUser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ApplicationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest.unknownUserTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UsersDatastoreTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PleckoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -958,35 +975,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsersDatastoreTest_retrieveUserTest - 2016.10.04 at 20h 34m 58s.xml">
-      <configuration name="UsersDatastoreTest.retrieveUserTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 32m 18s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersDatastoreTest_unknownUserTest - 2016.10.04 at 20h 34m 47s.xml">
-      <configuration name="UsersDatastoreTest.unknownUserTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 33m 10s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest - 2016.10.04 at 23h 08m 13s.xml">
-      <configuration name="UsersRepositoryTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 33m 40s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest - 2016.10.04 at 23h 09m 57s.xml">
-      <configuration name="UsersRepositoryTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 35m 28s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_correctStorageAndRetrieval - 2016.10.04 at 23h 07m 39s.xml">
-      <configuration name="UsersRepositoryTest.correctStorageAndRetrieval" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 36m 41s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_correctStorageAndRetrieval - 2016.10.04 at 23h 07m 57s.xml">
-      <configuration name="UsersRepositoryTest.correctStorageAndRetrieval" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 39m 34s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_unknownUserRetrievalTest - 2016.10.04 at 23h 12m 20s.xml">
-      <configuration name="UsersRepositoryTest.unknownUserRetrievalTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 22h 43m 50s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_unknownUserRetrievalTest - 2016.10.04 at 23h 18m 02s.xml">
-      <configuration name="UsersRepositoryTest.unknownUserRetrievalTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 23h 06m 24s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_unknownUserRetrievalTest - 2016.10.04 at 23h 34m 06s.xml">
-      <configuration name="UsersRepositoryTest.unknownUserRetrievalTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 23h 06m 53s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsersRepositoryTest_unknownUserRetrievalTest - 2016.10.04 at 23h 34m 57s.xml">
-      <configuration name="UsersRepositoryTest.unknownUserRetrievalTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest_testUser - 2016.10.09 at 23h 07m 37s.xml">
+      <configuration name="ApplicationTest.testUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -999,7 +1016,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="104" width="3689" height="1999" extended-state="0" />
+    <frame x="13" y="25" width="3689" height="1999" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1009,7 +1026,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.37818182" sideWeight="0.4093195" order="7" side_tool="true" content_ui="tabs" x="119" y="1434" width="2987" height="627" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32080764" sideWeight="0.59068054" order="2" side_tool="false" content_ui="tabs" x="267" y="1183" width="1766" height="627" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.361189" sideWeight="0.59068054" order="2" side_tool="false" content_ui="tabs" x="267" y="1183" width="1766" height="627" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289855" sideWeight="0.49679488" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45653394" sideWeight="0.4969231" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1019,7 +1036,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.77807575" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854739" sideWeight="0.77807575" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1078,91 +1095,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12692">
-          <caret line="517" column="0" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-ogm-core/2.0.3/neo4j-ogm-core-2.0.3.jar!/org/neo4j/ogm/session/delegates/SaveDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Feed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#360#361#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/services.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/graph.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="388" column="27" selection-start-line="388" selection-start-column="27" selection-end-line="388" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-ogm-embedded-driver/2.0.3/neo4j-ogm-embedded-driver-2.0.3.jar!/org/neo4j/ogm/drivers/embedded/driver/EmbeddedDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/Neo4JConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/graph/UsersGraphRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ogm.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/KnowledgeBaseRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UsersRepositoryImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/datastore.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/UsersRegistry.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Concept.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/RelatedResult.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Relation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/RelationsBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AggregationsCreatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AggregationsDelivererImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AggregationsDelivererImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1176,10 +1109,282 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/search/ItemsSearchRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/repositories/ItemsSearchRespository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/infrastructure/storage/UserRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/repositories/UsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/AgregationsDeliverer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Aggregation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/DeliveryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Feed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/FeedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/ContentCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/harvester/rss/extractors/EntityExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/UserBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HttpClientWiremockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/datastore/UsersDatastoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/model/modules/DeliveryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/script.cql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ogm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/storage/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/EntityExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/FeedExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/extractors/TikaExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/ContentCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/HTTPRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/ItemGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/RSSFeedHarvester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/harvester/rss/TikaHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/Profiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1192,117 +1397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#775#776#0" expanded="false" />
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/script.cwl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/search/ItemsSearchRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/ItemsSearchRespository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/PleckoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/storage/UserRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/TestConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/repositories/UsersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/InformationFeedHarvesterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/Profiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1315,42 +1413,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/config/CassandraConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="44" column="92" selection-start-line="44" selection-start-column="92" selection-end-line="44" selection-end-column="92" />
-          <folding>
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="-401">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/modules/AgregationsDeliverer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/Aggregation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/InformationFeedHarvesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1358,58 +1429,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/DeliveryCycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="44" column="45" selection-start-line="44" selection-start-column="5" selection-end-line="45" selection-end-column="51" />
+        <state relative-caret-position="189">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/repositories/UsersRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/RSSFeedHarvesterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        <state relative-caret-position="540">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/PleckoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/datastore/UsersDatastoreRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ItemsSearchRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/domain/exceptions/UserNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/TestConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/UsersDatastoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/infrastructure/controllers/PelckoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/storage/UserRepositoryImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.1/rest-assured-3.0.1.jar!/io/restassured/RestAssured.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="246">
+          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding>
+            <element signature="e#6885#6886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/epnoi/plecko/PleckoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/epnoi/plecko/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

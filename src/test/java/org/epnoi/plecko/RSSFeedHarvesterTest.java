@@ -1,7 +1,8 @@
 package org.epnoi.plecko;
 
-import org.epnoi.plecko.domain.FeedState;
-import org.epnoi.plecko.harvester.rss.RSSFeedHarvester;
+import org.epnoi.plecko.domain.model.FeedState;
+
+import org.epnoi.plecko.infrastructure.harvester.rss.RSSFeedHarvester;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;

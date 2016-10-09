@@ -1,8 +1,7 @@
 server:
+  port: 8090
   contextPath: /plecko
-  port: 8080
-
-
 spring:
-  profiles: graph,search
+  profiles.active: datastore, search
+
 

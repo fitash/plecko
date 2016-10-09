@@ -1,8 +1,9 @@
 package org.epnoi.plecko;
 
 import org.epnoi.plecko.config.Profiles;
-import org.epnoi.plecko.domain.Item;
+import org.epnoi.plecko.domain.model.Item;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,37 +15,37 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-import org.epnoi.plecko.storage.search.*;
+import org.epnoi.plecko.infrastructure.storage.search.*;
 
 /**
  * Created by fitash on 20/09/16.
  */
+@Ignore
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringApplicationConfiguration(classes = PleckoApp.class)
+@ActiveProfiles(Profiles.SEARCH)
+public class ItemsSearchRepositoryTest {
 
-    @RunWith(SpringJUnit4ClassRunner.class)
-    @SpringApplicationConfiguration(classes = PleckoApp.class)
-    @ActiveProfiles(Profiles.SEARCH)
-    public class ItemsSearchRepositoryTest {
+    @Autowired
+    private ItemsSearchRepository itemsRepository;
 
-        @Autowired
-        private ItemsSearchRepository itemsRepository;
+    @Before
+    public void init() {
+        itemsRepository.deleteAll();
+    }
 
-        @Before
-        public void init(){
-            itemsRepository.deleteAll();
-        }
+    @Test
+    public void storageAndRetrieval() {
 
-        @Test
-        public void storageAndRetrieval() {
+        Item item = new Item("uri", "url", "content", "description");
 
-            Item item = new Item("uri", "url", "content", "description");
+        this.itemsRepository.save(item);
 
-            this.itemsRepository.save(item);
-
-            Item retrievedItem = this.itemsRepository.findOne(item.getUri());
-            System.out.println("------------> "+retrievedItem);
-            assertThat(item, is(equalTo(retrievedItem)));
-
-        }
-
+        Item retrievedItem = this.itemsRepository.findOne(item.getUri());
+        System.out.println("------------> " + retrievedItem);
+        assertThat(item, is(equalTo(retrievedItem)));
 
     }
+
+
+}

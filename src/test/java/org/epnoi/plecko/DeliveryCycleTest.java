@@ -1,11 +1,11 @@
 package org.epnoi.plecko;
 
-import org.epnoi.plecko.domain.Aggregation;
-import org.epnoi.plecko.domain.Item;
-import org.epnoi.plecko.domain.User;
+import org.epnoi.plecko.domain.model.Aggregation;
+import org.epnoi.plecko.domain.model.Item;
+import org.epnoi.plecko.domain.model.User;
 import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
-import org.epnoi.plecko.domain.modules.*;
-import org.epnoi.plecko.domain.modules.repositories.UsersRepository;
+import org.epnoi.plecko.domain.model.modules.*;
+import org.epnoi.plecko.domain.model.modules.repositories.UsersRepository;
 import org.hamcrest.beans.HasPropertyWithValue;
 import org.junit.Before;
 import org.junit.Rule;

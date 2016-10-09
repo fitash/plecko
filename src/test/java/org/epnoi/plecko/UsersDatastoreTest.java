@@ -1,8 +1,8 @@
 package org.epnoi.plecko;
 
 import org.epnoi.plecko.config.Profiles;
-import org.epnoi.plecko.domain.User;
-import org.epnoi.plecko.storage.datastore.UsersDatastoreRepository;
+import org.epnoi.plecko.domain.model.User;
+import org.epnoi.plecko.infrastructure.storage.datastore.UsersDatastoreRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,21 +24,20 @@ import static org.hamcrest.Matchers.nullValue;
 @ActiveProfiles(Profiles.DATASTORE)
 public class UsersDatastoreTest {
 
-    public static final String TEST_USER_NAME = "test";
-    public static final String TEST_USER_EMAIL = "test@plecko.org";
 
-    User testUser;
+
+    User testUser = new User(TestConstants.TEST_USER_EMAIL+"2",TestConstants.TEST_USER_NAME+"2");
 
     @Autowired
     private UsersDatastoreRepository repository;
-
+/*
     @Before
     public void init(){
     testUser = new User(TestConstants.TEST_USER_EMAIL,TestConstants.TEST_USER_NAME);
         repository.deleteAll();
 
     }
-
+*/
     @Test
     public void unknownUserTest() {
               repository.save(testUser);

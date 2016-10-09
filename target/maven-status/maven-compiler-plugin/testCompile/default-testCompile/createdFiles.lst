@@ -1,0 +1,10 @@
+org/epnoi/plecko/UsersDatastoreTest.class
+org/epnoi/plecko/DeliveryCycleTest.class
+HttpClientWiremockTest.class
+org/epnoi/plecko/InformationFeedHarvesterTest.class
+org/epnoi/plecko/RSSFeedHarvesterTest.class
+org/epnoi/plecko/TestConstants.class
+org/epnoi/plecko/ItemsSearchRepositoryTest.class
+org/epnoi/plecko/ApplicationTest.class
+org/epnoi/plecko/infrastructure/storage/UserRepositoryTest.class
+org/epnoi/plecko/repositories/UsersRepositoryTest.class
