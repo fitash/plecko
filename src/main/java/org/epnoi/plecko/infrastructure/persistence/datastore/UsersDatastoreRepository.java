@@ -1,4 +1,4 @@
-package org.epnoi.plecko.infrastructure.storage.datastore;
+package org.epnoi.plecko.infrastructure.persistence.datastore;
 
 import org.epnoi.plecko.domain.model.User;
 import org.springframework.data.cassandra.repository.CassandraRepository;

@@ -5,37 +5,53 @@ package org.epnoi.plecko;
  * Created by fitash on 9/10/16.
  */
 
-import io.restassured.RestAssured;
-import org.epnoi.plecko.config.Profiles;
+import com.jayway.restassured.RestAssured;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.test.SpringApplicationConfiguration;
-import org.springframework.boot.test.WebIntegrationTest;
-import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.boot.context.embedded.LocalServerPort;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ActiveProfiles({Profiles.DATASTORE,Profiles.SEARCH})
-@SpringApplicationConfiguration(classes = PleckoApp.class)
-@WebIntegrationTest("server.port:0")
 
-/*
+
+import static com.jayway.restassured.RestAssured.when;
+import static org.hamcrest.Matchers.equalTo;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-*/
+
 public class ApplicationTest {
 
-    @Value("${local.server.port}")
+   @LocalServerPort
     int port;
 
 
     @Test
     public void testUser(){
+        String whatever = "";
 
         System.out.println("port-------> "+port);
-    System.out.println("------> "+ RestAssured.get("http://localhost:"+new Integer(port)+"/plecko").asString());
+    System.out.println("------> "+ RestAssured.get("http://localhost:"+new Integer(port)+"/plecko/user").asString());
+
+
+
+        when().get("http://localhost:"+new Integer(port)+"/plecko/user")
+                .then().assertThat().body("email", equalTo("test@plecko.org"));
 
 }
+
+    @Test
+    public void testNonExistantUser(){
+        String whatever = "";
+
+        System.out.println("port-------> "+port);
+        System.out.println("------> "+ RestAssured.get("http://localhost:"+new Integer(port)+"/plecko/user").asString());
+
+
+
+        when().get("http://localhost:"+new Integer(port)+"/plecko/user")
+                .then().assertThat().body("email", equalTo("test@plecko.org"));
+
+    }
+
 
 }

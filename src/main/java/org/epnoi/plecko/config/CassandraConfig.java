@@ -19,7 +19,7 @@ import org.springframework.data.cassandra.repository.config.EnableCassandraRepos
  */
 @Configuration
 @PropertySource(value = { "classpath:cassandra.properties" })
-@EnableCassandraRepositories(basePackages = "org.epnoi.plecko.infrastructure.storage")
+@EnableCassandraRepositories(basePackages = "org.epnoi.plecko.infrastructure.persistence")
 @Profile(Profiles.DATASTORE)
 public class CassandraConfig extends AbstractCassandraConfiguration {
 

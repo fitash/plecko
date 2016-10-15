@@ -5,7 +5,7 @@ import org.epnoi.plecko.TestConstants;
 import org.epnoi.plecko.config.Profiles;
 import org.epnoi.plecko.domain.model.User;
 import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
-import org.epnoi.plecko.domain.model.modules.repositories.UsersRepository;
+import org.epnoi.plecko.domain.ports.secundary.UsersRepository;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

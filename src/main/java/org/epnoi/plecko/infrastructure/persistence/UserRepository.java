@@ -1,4 +1,4 @@
-package org.epnoi.plecko.infrastructure.storage;
+package org.epnoi.plecko.infrastructure.persistence;
 
 import com.datastax.driver.core.querybuilder.QueryBuilder;
 import org.epnoi.plecko.domain.model.User;

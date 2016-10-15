@@ -1,4 +1,4 @@
-package org.epnoi.plecko.infrastructure.storage.search;
+package org.epnoi.plecko.infrastructure.persistence.search;
 
 import org.epnoi.plecko.domain.model.Item;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

@@ -1,4 +1,4 @@
-package org.epnoi.plecko.domain.model.modules.repositories;
+package org.epnoi.plecko.domain.ports.secundary;
 
 import org.epnoi.plecko.domain.model.User;
 import org.epnoi.plecko.domain.exceptions.UserNotFoundException;

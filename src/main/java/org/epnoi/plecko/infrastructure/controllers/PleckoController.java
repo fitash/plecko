@@ -1,8 +1,7 @@
 package org.epnoi.plecko.infrastructure.controllers;
 
-import org.epnoi.plecko.domain.model.FeedState;
 import org.epnoi.plecko.domain.model.User;
-import org.epnoi.plecko.infrastructure.storage.datastore.UsersDatastoreRepository;
+import org.epnoi.plecko.infrastructure.persistence.datastore.UsersDatastoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,11 +9,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.PostConstruct;
-import javax.servlet.ServletContext;
 
 @RestController
 @EnableAutoConfiguration
-public class PelckoController {
+public class PleckoController {
     @Autowired
     private UsersDatastoreRepository repository;
 
@@ -48,6 +46,16 @@ public class PelckoController {
         System.out.println("---------------__> " + users);
         //return new User("whatevermail", "whatever");
         return users.iterator().next();
+    }
+
+    @RequestMapping(path = "/users", method = RequestMethod.GET)
+
+    public Iterable<User> users() {
+        System.out.println("---------------__> " + this.repository.findAll());
+        Iterable<User> users = this.repository.findAll();
+        System.out.println("---------------__> " + users);
+        //return new User("whatevermail", "whatever");
+        return users;
     }
 }
 

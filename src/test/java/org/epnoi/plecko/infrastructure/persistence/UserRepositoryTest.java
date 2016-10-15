@@ -1,4 +1,4 @@
-package org.epnoi.plecko.infrastructure.storage;
+package org.epnoi.plecko.infrastructure.persistence;
 
 
 import org.epnoi.plecko.PleckoApp;

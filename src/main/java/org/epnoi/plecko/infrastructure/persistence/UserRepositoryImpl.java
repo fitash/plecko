@@ -1,9 +1,9 @@
-package org.epnoi.plecko.infrastructure.storage;
+package org.epnoi.plecko.infrastructure.persistence;
 
 import org.epnoi.plecko.domain.model.User;
 import org.epnoi.plecko.domain.exceptions.UserNotFoundException;
-import org.epnoi.plecko.domain.model.modules.repositories.UsersRepository;
-import org.epnoi.plecko.infrastructure.storage.datastore.UsersDatastoreRepository;
+import org.epnoi.plecko.domain.ports.secundary.UsersRepository;
+import org.epnoi.plecko.infrastructure.persistence.datastore.UsersDatastoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.cassandra.repository.MapId;
 import org.springframework.data.cassandra.repository.support.BasicMapId;
