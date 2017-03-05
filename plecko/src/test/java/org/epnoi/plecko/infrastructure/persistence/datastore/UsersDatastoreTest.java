@@ -38,7 +38,7 @@ public class UsersDatastoreTest {
 
     @BeforeClass
     public static void startCassandraEmbedded() throws InterruptedException, TTransportException, ConfigurationException, IOException {
-        EmbeddedCassandraServerHelper.startEmbeddedCassandra(r);
+        EmbeddedCassandraServerHelper.startEmbeddedCassandra();
         //EmbeddedCassandraServerHelper.startEmbeddedCassandra(EmbeddedCassandraServerHelper.CASSANDRA_RNDPORT_YML_FILE);
         int port=EmbeddedCassandraServerHelper.getRpcPort();
         final Cluster cluster = Cluster.builder().addContactPoints("127.0.0.1").withPort(port).build();
