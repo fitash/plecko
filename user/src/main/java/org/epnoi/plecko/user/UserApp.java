@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Created by rgonza on 10/06/16.
  */
+
 @SpringBootApplication
 public class UserApp extends SpringApplication
 {
