@@ -1,2 +1,0 @@
-plecko: RSS aggregator
-======================
