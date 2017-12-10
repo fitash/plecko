@@ -9,17 +9,15 @@ object HoarderMaster {
 }
 
 class HoarderMaster(private val feeds: Seq[Feed]) extends Actor with ActorLogging {
-  println("I am "+self)
+ log.info("hoardermaster initializing")
   feeds.foreach(feed => context.actorOf(Hoarder.props(feed)))
-  context.system.scheduler.scheduleOnce(Duration(10, SECONDS), self, End)
+  context.system.scheduler.scheduleOnce(Duration(10, SECONDS), self, Stop)
 
   override def receive = {
-    case End => {
+    case Stop => {
       log.info("Stoping the hoarder-master")
-      println("--------> "+context.children)
       context.children.foreach(child => {
-        println(child)
-        context.system.stop(child)
+        child!PoisonPill
       })
       self! PoisonPill
     }

@@ -7,4 +7,4 @@ sealed class Message {
 
 final case class Hoard() extends Message
 
-final case class End()
+final case class Stop()
