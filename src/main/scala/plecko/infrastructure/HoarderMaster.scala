@@ -5,10 +5,10 @@ import akka.actor.{Actor, ActorLogging, PoisonPill, Props}
 import scala.concurrent.duration.{Duration, SECONDS}
 
 object HoarderMaster {
-  def props(feeds: Seq[Feed]): Props = Props(new HoarderMaster(feeds))
+  def props(feeds: Seq[FeedDefinition]): Props = Props(new HoarderMaster(feeds))
 }
 
-class HoarderMaster(private val feeds: Seq[Feed]) extends Actor with ActorLogging {
+class HoarderMaster(private val feeds: Seq[FeedDefinition]) extends Actor with ActorLogging {
  log.info("hoardermaster initializing")
   feeds.foreach(feed => context.actorOf(Hoarder.props(feed)))
   context.system.scheduler.scheduleOnce(Duration(10, SECONDS), self, Stop)

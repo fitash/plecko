@@ -1,14 +1,14 @@
 package plecko
 
 import akka.actor.ActorSystem
-import plecko.infrastructure.{Feed, HoarderMaster}
+import plecko.infrastructure.{FeedDefinition, HoarderMaster}
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable.Seq
 
 object PleckoApp extends App {
   val actorSystem = ActorSystem("Plecko")
-  val feeds: Seq[Feed] = readFeeds()
+  val feeds: Seq[FeedDefinition] = readFeeds()
   println("Starting plecko!")
   println(feeds)
   startActors()
@@ -16,7 +16,7 @@ object PleckoApp extends App {
   println("Exiting plecko :(")
 
   def readFeeds() = {
-    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(Feed.aFeedFrom(_))
+    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(FeedDefinition.aFeedFrom(_))
   }
 
   def startActors(): Unit = {
