@@ -8,12 +8,11 @@ object Parser {
   def main(args: Array[String]): Unit = {
     val path: String = Parser.getClass.getResource("microsiervos.xml").getPath
     val parser = new Parser()
-    println("=======>" + parser.parse(path))
   }
 }
 
 class Parser {
-  def parse(path: String) = {
+  def parse(path: String):Seq[Item] = {
     val xml = XML.loadFile(path)
     xml \\ "item" map toItem
   }

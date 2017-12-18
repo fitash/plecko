@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="189d787f-f934-4489-83df-db949c0a4e41" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/index.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/plecko/PleckoApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/plecko/PleckoApp.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala" afterPath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Hoarder.scala" afterPath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Hoarder.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/HoarderMaster.scala" afterPath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/HoarderMaster.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +33,8 @@
       <file leaf-file-name="Hoarder.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Hoarder.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="14" column="92" lean-forward="false" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+            <state relative-caret-position="285">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="e#31#77#0" expanded="true" />
               </folding>
@@ -47,12 +42,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParserTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/plecko/infrastructure/parsers/rss/ParserTest.scala">
+      <file leaf-file-name="Parser.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +109,8 @@
       <file leaf-file-name="Feed.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="195">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="e#31#64#0" expanded="true" />
               </folding>
@@ -184,13 +181,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Message.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/parser.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/core/Item.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/plecko/infrastructure/parsers/rss/ParserTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/PleckoApp.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/HoarderMaster.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Hoarder.scala" />
       </list>
     </option>
@@ -198,8 +195,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1341" />
-    <option name="height" value="710" />
+    <option name="width" value="2261" />
+    <option name="height" value="1259" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -219,9 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,7 +256,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="plecko" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plecko" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="plecko" type="462c0819:PsiDirectoryNode" />
               <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plecko" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="plecko" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="rss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
@@ -335,32 +348,14 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
             </path>
-            <path>
-              <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="plecko" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="SBT: sbt-and-plugins" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,12 +664,12 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1341" height="710" extended-state="0" />
+    <frame x="8" y="23" width="2261" height="1259" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293919" sideWeight="0.5044346" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17090271" sideWeight="0.36199096" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -695,7 +690,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.49663138" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.4549763" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31485757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1897251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.4955654" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -705,7 +700,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293919" sideWeight="0.64412415" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293919" sideWeight="0.6380091" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -724,7 +719,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala</url>
-          <line>23</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -990,16 +985,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/plecko/rss/microsiervos.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/plecko/rss/microsiervos.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/plecko/infrastructure.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/infrastructure/parsers/rss/microsiervos.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1012,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,16 +1013,6 @@
         <state relative-caret-position="45">
           <caret line="3" column="65" lean-forward="false" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#31#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,10 +1050,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Feed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/parsers/rss/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/plecko/infrastructure/Hoarder.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="14" column="92" lean-forward="false" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="e#31#77#0" expanded="true" />
           </folding>
