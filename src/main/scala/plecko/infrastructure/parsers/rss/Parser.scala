@@ -1,6 +1,6 @@
 package plecko.infrastructure.parsers.rss
 
-import plecko.core.Item
+import plecko.domain.Item
 
 import scala.xml._
 

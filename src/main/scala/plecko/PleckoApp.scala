@@ -8,19 +8,17 @@ import scala.collection.mutable.Seq
 
 object PleckoApp extends App {
   val actorSystem = ActorSystem("Plecko")
-  val feeds: Seq[FeedDefinition] = readFeeds()
   println("Starting plecko!")
-  println(feeds)
   startActors()
   println(actorSystem)
   println("Exiting plecko :(")
 
   def readFeeds() = {
-    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(FeedDefinition.aFeedFrom(_))
+    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(f=>FeedDefinition.aFeedFrom(f))
   }
 
   def startActors(): Unit = {
-    actorSystem.actorOf(HoarderMaster.props(feeds), "hoarder-master")
+    actorSystem.actorOf(HoarderMaster.props(readFeeds()), "hoarder-master")
   }
 
 
