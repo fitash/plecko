@@ -4,7 +4,7 @@ import akka.actor.ActorSystem
 import plecko.infrastructure.{FeedDefinition, HoarderMaster}
 
 import scala.collection.JavaConverters._
-import scala.collection.mutable.Seq
+
 
 object PleckoApp extends App {
   val actorSystem = ActorSystem("Plecko")

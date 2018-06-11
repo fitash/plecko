@@ -1,6 +1,10 @@
 package plecko.infrastructure
+import java.io.FileNotFoundException
+
+import akka.actor.SupervisorStrategy.{Decider, Restart}
+
 import scala.concurrent.ExecutionContext.Implicits.global
-import akka.actor.{Actor, ActorLogging, PoisonPill, Props}
+import akka.actor.{Actor, ActorLogging, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
 
 import scala.concurrent.duration.{Duration, SECONDS}
 
@@ -12,6 +16,10 @@ class HoarderMaster(private val feeds: Seq[FeedDefinition]) extends Actor with A
  log.info("hoardermaster initializing")
   feeds.foreach(feed => context.actorOf(Hoarder.props(feed)))
   context.system.scheduler.scheduleOnce(Duration(10, SECONDS), self, Stop)
+
+  override val supervisorStrategy= OneForOneStrategy() {
+    case _:FileNotFoundException => Restart
+  }
 
   override def receive = {
     case Stop => {
