@@ -10,7 +10,7 @@ object PleckoApp extends App {
   val actorSystem = ActorSystem("Plecko")
   println("Starting plecko!")
   startActors()
-  println(actorSystem)
+  actorSystem.whenTerminated
   println("Exiting plecko :(")
 
   def readFeeds() = {

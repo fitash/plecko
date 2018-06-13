@@ -13,7 +13,7 @@ object Parser {
 
 class Parser {
   def parse(path: String):Seq[Item] = {
-    val xml = XML.loadFile(path)
+    val xml = XML.load(path)
     xml \\ "item" map toItem
   }
 

@@ -13,12 +13,18 @@ object Hoarder {
 }
 
 class Hoarder(feed: FeedDefinition) extends Actor with ActorLogging {
+  private var tries = 0;
   private val parser = new Parser()
-  context.system.scheduler.scheduleOnce(FiniteDuration(feed.frequency.toMillis, MILLISECONDS), self, Hoard)
+  context.system.scheduler.scheduleOnce(FiniteDuration(feed.frequency.toSeconds, SECONDS), self, Hoard)
+
+  override def preRestart(reason: Throwable, message: Option[Any]): Unit = {
+    log.info("Restarting!")
+    super.preRestart(reason, message)
+  }
 
   override def receive = {
     case Hoard => {
-      context.system.scheduler.scheduleOnce(Duration(1, SECONDS), self, Hoard)
+      context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
       log.info("Starting the hoard of " + feed.name + " at " + feed.url)
       parser.parse(feed.url)
     }

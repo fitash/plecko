@@ -9,11 +9,12 @@ object FeedDefinition {
     new FeedDefinition(
       feedConfig.getString("name"),
       feedConfig.getString("url"),
-      Duration(feedConfig.getString("frequency")))
+      Duration(feedConfig.getString("frequency")),
+        feedConfig.getInt("numberOfTrials"))
   }
 }
 
-class FeedDefinition(val name: String, val url: String, val frequency: Duration) {
+class FeedDefinition(val name: String, val url: String, val frequency: Duration, val numberOfTrials: Int) {
 
-  override def toString(): String = s"Feed<$name, $url, $frequency>"
+  override def toString(): String = s"Feed<$name, $url, $frequency, $numberOfTrials>"
 }

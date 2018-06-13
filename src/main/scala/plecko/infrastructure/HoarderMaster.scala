@@ -13,12 +13,18 @@ object HoarderMaster {
 }
 
 class HoarderMaster(private val feeds: Seq[FeedDefinition]) extends Actor with ActorLogging {
- log.info("hoardermaster initializing")
-  feeds.foreach(feed => context.actorOf(Hoarder.props(feed)))
-  context.system.scheduler.scheduleOnce(Duration(50, SECONDS), self, Stop)
+ log.info("HoarderMaster initializing")
+  private val feedDefintionTable = feeds
+    .map(feed => (context.actorOf(Hoarder.props(feed))))
+    .groupBy(_.path)
+    .map({case (path, actors) => (path,actors.head)})
 
-  override val supervisorStrategy= OneForOneStrategy() {
+  context.system.scheduler.scheduleOnce(Duration(20, SECONDS), self, Stop)
+
+  override val supervisorStrategy= OneForOneStrategy(3, Duration.Inf) {
     case _:FileNotFoundException => Restart
+    case _ => log.info(s"Unknown problem for child %)
+
   }
 
   override def receive = {
