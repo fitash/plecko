@@ -9,27 +9,30 @@ import scala.language.{implicitConversions, postfixOps}
 
 object Hoarder {
   def props(feed: FeedDefinition) = Props(new Hoarder(feed))
-
 }
 
 class Hoarder(feed: FeedDefinition) extends Actor with ActorLogging {
-  private var tries = 0;
   private val parser = new Parser()
-  context.system.scheduler.scheduleOnce(FiniteDuration(feed.frequency.toSeconds, SECONDS), self, Hoard)
+  context.system.scheduler.scheduleOnce(Duration(5, SECONDS), self, Hoard)
 
   override def preRestart(reason: Throwable, message: Option[Any]): Unit = {
-    log.info("Restarting!")
+    log.info("restarting!")
     super.preRestart(reason, message)
+  }
+
+  override def aroundPostStop(): Unit = {
+    log.info("stoping!")
+    super.aroundPostStop()
   }
 
   override def receive = {
     case Hoard => {
-      context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
-      log.info("Starting the hoard of " + feed.name + " at " + feed.url)
+      log.info(s"starting the hoard of ${feed.name} at ${feed.url}")
       parser.parse(feed.url)
+      context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
     }
     case _ => {
-      log.info("Unknown message recieved by " + feed + " actor")
+      log.info(s"unknown message recieved by $feed actor")
     }
   }
 }

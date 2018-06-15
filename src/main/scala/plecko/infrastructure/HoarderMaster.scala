@@ -1,11 +1,7 @@
 package plecko.infrastructure
-import java.io.FileNotFoundException
 
-import akka.actor.SupervisorStrategy.{Decider, Restart}
-
-import scala.concurrent.ExecutionContext.Implicits.global
-import akka.actor.{Actor, ActorLogging, OneForOneStrategy, PoisonPill, Props, SupervisorStrategy}
-
+import akka.actor.SupervisorStrategy.Restart
+import akka.actor.{Actor, ActorLogging, OneForOneStrategy, PoisonPill, Props}
 import scala.concurrent.duration.{Duration, SECONDS}
 
 object HoarderMaster {
@@ -13,27 +9,26 @@ object HoarderMaster {
 }
 
 class HoarderMaster(private val feeds: Seq[FeedDefinition]) extends Actor with ActorLogging {
- log.info("HoarderMaster initializing")
+  log.info("initializing")
   private val feedDefintionTable = feeds
-    .map(feed => (context.actorOf(Hoarder.props(feed))))
+    .map(feed => (context.actorOf(Hoarder.props(feed), feed.name)))
     .groupBy(_.path)
-    .map({case (path, actors) => (path,actors.head)})
+    .map({ case (path, actors) => (path, actors.head) })
 
-  context.system.scheduler.scheduleOnce(Duration(20, SECONDS), self, Stop)
-
-  override val supervisorStrategy= OneForOneStrategy(3, Duration.Inf) {
-    case _:FileNotFoundException => Restart
-    case _ => log.info(s"Unknown problem for child %)
-
+  override val supervisorStrategy = OneForOneStrategy(3, Duration.Inf) {
+    case _: Exception => {
+      log.info(s"restarting ${sender().path}")
+      Restart
+    }
   }
 
   override def receive = {
     case Stop => {
-      log.info("The hoarder-master is stopping since it's time is up")
+      log.info("stopping since a stop message was received")
       context.children.foreach(child => {
-        child!PoisonPill
+        child ! PoisonPill
       })
-      self! PoisonPill
+      self ! PoisonPill
     }
   }
 }
