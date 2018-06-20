@@ -1,11 +1,13 @@
 package plecko.infrastructure.repository
 
-import akka.actor.{Actor, ActorLogging, Stash}
+import akka.actor.{Actor, ActorLogging, Props, Stash}
 import plecko.domain.Item
 import plecko.infrastructure.repository.ItemPublisher.ItemPublication
 
 object ItemPublisher{
   case class ItemPublication(val item:Item)
+
+  def props(): Props = Props(new ItemPublisher)
 }
 
 class ItemPublisher extends Actor with ActorLogging with Stash{
