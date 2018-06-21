@@ -13,7 +13,7 @@ object ItemPublisher{
 class ItemPublisher extends Actor with ActorLogging with Stash{
   override def receive: Receive ={
     case ItemPublication(item) => {
-      //kafka stuff goes here
+     log.info(s"publishing the item ${item.title} "+this)
     }
   }
 }

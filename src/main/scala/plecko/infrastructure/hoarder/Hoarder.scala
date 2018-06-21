@@ -13,6 +13,7 @@ object Hoarder {
 }
 
 class Hoarder(feed: FeedDefinition, itemsRepository: ActorPath) extends Actor with ActorLogging {
+  log.info(s"publish to $itemsRepository ---> "+ context.actorSelection(itemsRepository))
   private val parser = new Parser()
   context.system.scheduler.scheduleOnce(Duration(5, SECONDS), self, Hoard)
 
@@ -29,7 +30,8 @@ class Hoarder(feed: FeedDefinition, itemsRepository: ActorPath) extends Actor wi
   override def receive = {
     case Hoard => {
       log.info(s"starting the hoard of ${feed.name} at ${feed.url}")
-      context.actorSelection(itemsRepository) ! parser.parse(feed.url)
+
+      parser.parse(feed.url).foreach(item => context.actorSelection(itemsRepository)!item)
 
       context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
     }
