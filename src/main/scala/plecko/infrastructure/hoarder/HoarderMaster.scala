@@ -1,17 +1,19 @@
-package plecko.infrastructure
+package plecko.infrastructure.hoarder
 
 import akka.actor.SupervisorStrategy.Restart
-import akka.actor.{Actor, ActorLogging, OneForOneStrategy, PoisonPill, Props}
-import scala.concurrent.duration.{Duration, SECONDS}
+import akka.actor.{Actor, ActorLogging, ActorPath, ActorRef, OneForOneStrategy, PoisonPill, Props}
+import plecko.infrastructure.{FeedDefinition, Stop}
+
+import scala.concurrent.duration.Duration
 
 object HoarderMaster {
-  def props(feeds: Seq[FeedDefinition]): Props = Props(new HoarderMaster(feeds))
+  def props(feeds: Seq[FeedDefinition], itemsRepository: ActorPath): Props = Props(new HoarderMaster(feeds, itemsRepository))
 }
 
-class HoarderMaster(private val feeds: Seq[FeedDefinition]) extends Actor with ActorLogging {
+class HoarderMaster(private val feeds: Seq[FeedDefinition], itemRepository: ActorPath) extends Actor with ActorLogging {
   log.info("initializing")
   private val feedDefintionTable = feeds
-    .map(feed => (context.actorOf(Hoarder.props(feed), feed.name)))
+    .map(feed => (context.actorOf(Hoarder.props(feed, itemRepository), feed.name)))
     .groupBy(_.path)
     .map({ case (path, actors) => (path, actors.head) })
 

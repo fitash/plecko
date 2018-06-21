@@ -1,7 +1,10 @@
 package plecko
 
 import akka.actor.ActorSystem
-import plecko.infrastructure.{FeedDefinition, HoarderMaster}
+import plecko.infrastructure.FeedDefinition
+import plecko.infrastructure.hoarder.HoarderMaster
+import plecko.infrastructure.repository.ItemRepository
+
 import scala.collection.JavaConverters._
 
 
@@ -14,6 +17,7 @@ object PleckoApp extends App {
   }
 
   def startActors(): Unit = {
-    actorSystem.actorOf(HoarderMaster.props(readFeeds()), "hoarder-master")
+    val itemRepositoryPath = actorSystem.actorOf(ItemRepository.props()).path
+    actorSystem.actorOf(HoarderMaster.props(readFeeds(),itemRepositoryPath), "hoarder-master")
   }
 }
