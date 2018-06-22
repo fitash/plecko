@@ -7,6 +7,7 @@ import plecko.infrastructure.{FeedDefinition, Stop}
 import scala.concurrent.duration.Duration
 
 object HoarderMaster {
+  val NAME= "hoarder-master"
   def props(feeds: Seq[FeedDefinition], itemsRepository: ActorPath): Props = Props(new HoarderMaster(feeds, itemsRepository))
 }
 

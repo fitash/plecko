@@ -13,11 +13,11 @@ object PleckoApp extends App {
   startActors()
 
   def readFeeds() = {
-    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(f=>FeedDefinition.aFeedFrom(f))
+    actorSystem.settings.config.getConfigList("plecko.feeds").asScala.map(FeedDefinition.aFeedFrom(_))
   }
 
   def startActors(): Unit = {
-    val itemRepositoryPath = actorSystem.actorOf(ItemRepository.props(), "itemrepository").path
-    actorSystem.actorOf(HoarderMaster.props(readFeeds(),itemRepositoryPath), "hoarder-master")
+    val itemRepositoryPath = actorSystem.actorOf(ItemRepository.props(), ItemRepository.NAME).path
+    actorSystem.actorOf(HoarderMaster.props(readFeeds(), itemRepositoryPath), HoarderMaster.NAME)
   }
 }

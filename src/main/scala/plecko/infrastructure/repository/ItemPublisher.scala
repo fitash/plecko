@@ -5,9 +5,11 @@ import plecko.domain.Item
 import plecko.infrastructure.repository.ItemPublisher.ItemPublication
 
 object ItemPublisher{
+  val NAME = "item-publisher"
   case class ItemPublication(val item:Item)
 
   def props(): Props = Props(new ItemPublisher)
+
 }
 
 class ItemPublisher extends Actor with ActorLogging with Stash{
