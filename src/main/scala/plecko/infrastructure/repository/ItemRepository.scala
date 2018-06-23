@@ -20,7 +20,7 @@ class ItemRepository extends Actor with ActorLogging {
 
   override def receive: Receive = {
     case item: Item => {
-      log.info(s"received the item ${item.title}")
+     // log.info(s"received the item ${item.title}")
       publisher.forward(ItemPublication(item))
     }
     case x: Any => {
