@@ -17,7 +17,7 @@ object PleckoApp extends App {
   }
 
   def startActors(): Unit = {
-    val itemRepositoryPath = actorSystem.actorOf(ItemRepository.props(), ItemRepository.NAME).path
-    actorSystem.actorOf(HoarderMaster.props(readFeeds(), itemRepositoryPath), HoarderMaster.NAME)
+    val itemRepository = actorSystem.actorOf(ItemRepository.props(), ItemRepository.NAME)
+    actorSystem.actorOf(HoarderMaster.props(readFeeds(), itemRepository), HoarderMaster.NAME)
   }
 }

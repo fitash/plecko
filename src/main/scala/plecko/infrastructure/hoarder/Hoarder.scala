@@ -9,11 +9,11 @@ import scala.concurrent.duration._
 import scala.language.{implicitConversions, postfixOps}
 
 object Hoarder {
-  def props(feed: FeedDefinition, repository:ActorPath) = Props(new Hoarder(feed,repository))
+  def props(feed: FeedDefinition, repository:ActorRef) = Props(new Hoarder(feed,repository))
 }
 
-class Hoarder(feed: FeedDefinition, itemsRepository: ActorPath) extends Actor with ActorLogging {
-  log.info(s"publish to $itemsRepository ---> "+ context.actorSelection(itemsRepository))
+class Hoarder(feed: FeedDefinition, itemsRepository: ActorRef) extends Actor with ActorLogging {
+  log.info(s"publish to $itemsRepository")
   private val parser = new Parser()
   context.system.scheduler.scheduleOnce(Duration(5, SECONDS), self, Hoard)
 
@@ -31,7 +31,7 @@ class Hoarder(feed: FeedDefinition, itemsRepository: ActorPath) extends Actor wi
     case Hoard => {
       log.info(s"starting the hoard of ${feed.name} at ${feed.url}")
 
-      parser.parse(feed.url).foreach(item => context.actorSelection(itemsRepository)!item)
+      parser.parse(feed.url).foreach(itemsRepository!_)
 
       context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
     }

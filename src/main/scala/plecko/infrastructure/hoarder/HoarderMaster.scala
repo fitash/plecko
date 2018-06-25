@@ -8,10 +8,10 @@ import scala.concurrent.duration.Duration
 
 object HoarderMaster {
   val NAME= "hoarder-master"
-  def props(feeds: Seq[FeedDefinition], itemsRepository: ActorPath): Props = Props(new HoarderMaster(feeds, itemsRepository))
+  def props(feeds: Seq[FeedDefinition], itemsRepository: ActorRef): Props = Props(new HoarderMaster(feeds, itemsRepository))
 }
 
-class HoarderMaster(private val feeds: Seq[FeedDefinition], itemRepository: ActorPath) extends Actor with ActorLogging {
+class HoarderMaster(private val feeds: Seq[FeedDefinition], itemRepository: ActorRef) extends Actor with ActorLogging {
   log.info("initializing")
   private val feedDefintionTable = feeds
     .map(feed => (context.actorOf(Hoarder.props(feed, itemRepository), feed.name)))
