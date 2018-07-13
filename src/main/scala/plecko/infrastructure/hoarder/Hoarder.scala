@@ -1,7 +1,7 @@
 package plecko.infrastructure.hoarder
 
 import akka.actor.{Actor, ActorLogging, ActorPath, ActorRef, Props}
-import plecko.infrastructure.parsers.rss.Parser
+import plecko.infrastructure.parsers.rss.RSSParser
 import plecko.infrastructure.{FeedDefinition, Hoard}
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -14,7 +14,7 @@ object Hoarder {
 
 class Hoarder(feed: FeedDefinition, itemsRepository: ActorRef) extends Actor with ActorLogging {
   log.info(s"publish to $itemsRepository")
-  private val parser = new Parser()
+  private val parser = new RSSParser()
   context.system.scheduler.scheduleOnce(Duration(5, SECONDS), self, Hoard)
 
   override def preRestart(reason: Throwable, message: Option[Any]): Unit = {

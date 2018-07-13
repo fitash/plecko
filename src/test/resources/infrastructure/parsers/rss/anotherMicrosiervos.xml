@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Microsiervos</title>
+      <link>https://www.microsiervos.com</link>
+      <description>Weblog acerca de ciencia, tecnología, internet y mucho más</description>
+      <language>es</language>
+      <copyright>Copyright 2018</copyright>
+      <lastBuildDate>Wed, 04 Jul 2018 20:00:19 +0100</lastBuildDate>
+      <generator>http://www.sixapart.com/movabletype/?v=5.2.13</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <atom:link href="http://www.microsiervos.com/index.xml" rel="self" type="application/rss+xml" />
+
+      <item>
+      <title>Cómo funciona Internet, de verdad de la buena</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://9gag.com/gag/aW1RZp6/how-the-internet-is-made-official-irish-educational-video"><img src="//img.microsiervos.com/images2018/9Gag_How_the_Internet_Works.jpg" width="100%" alt="Cómo funciona Internet, de verdad de la buena / 9Gag" title="Cómo funciona Internet, de verdad de la buena / 9Gag" /></a></p>
+
+<p>Aunque este documental educativo de <a href="https://9gag.com/">9Gag</a> sobre <a href="https://9gag.com/gag/aW1RZp6/how-the-internet-is-made-official-irish-educational-video"><strong>cómo funciona Internet</strong></a> se centra en Irlanda –por el acento y las <em>coñas,</em> supongo– en realidad es un poco una explicación universal, que comienza <em>como todo el mundo sabe</em> en <strong>las planicies de Australia</strong>. Allí cantidades ingentes de Internet se extraen <strong>de las minas</strong>. Luego se lleva a las fábricas, donde se limpia la «internet mala» y se prepara para el transporte.</p>
+
+<p>No sin antes recibir el visto bueno del mandamás <strong>Bill Gates</strong>, la parte «buena» de Internet se transporta durante diez largos meses a través de una <a href="https://en.wikipedia.org/wiki/Series_of_tubes">serie</a> de <a href="https://www.youtube.com/watch?v=EtOoQFa5ug8">tubos</a> hasta llegar a Irlanda. Allí, como manda la tradición, unos sacerdotes <strong>bendicen Internet</strong> justo antes de que llegue hasta los hogares.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/humor/como-funciona-internet-humor.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/humor/como-funciona-internet-humor.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/humor/como-funciona-internet-humor.html</guid>
+         <category>Humor</category>
+         <pubDate>Wed, 04 Jul 2018 20:00:19 +0100</pubDate>
+         <!-- ItemID 149394 -->
+      </item>
+
+      <item>
+      <title>Un problema geométrico de círculos, cuadrados y un área</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://solvemymaths.com/2016/11/02/area-problem-25/"><img src="//img.microsiervos.com/images2018/circulos-cuadrados.jpg" width="55%" alt="Un problema geométrico de círculos, cuadrados y un área / SolveMyMaths.com" title="Un problema geométrico de círculos, cuadrados y un área / SolveMyMaths.com" /></a><br/><cite>Si el radio del círculo grande vale 1, ¿cuál es el área del círculo pequeño?</cite></p>
+
+<p>En <a href="https://solvemymaths.com/">Solve My Maths</a> suelen plantear muchos problemas geométricos de este estilo, que son fáciles de entender y no tan fáciles de resolver – combinación ideal.</p>
+
+<p>En este caso preguntaron sobre una composición con <a href="https://solvemymaths.com/2016/11/02/area-problem-25/"><strong>círculos, cuadrados y un área</strong></a>. Hay que dar por supuesto que no hay <em>truqui</em> y son cuadrados y círculos tangentes, con los puntos de contacto en los lugares obvios. Pista: resolviendo paso a paso con <em>lo que se sabe</em> se va averiguando <em>lo que no se sabe.</em> ¡Y no olvides leer dos veces la pregunta!</p>
+
+<p>La respuesta no requiere de grandes cálculos, pero tampoco es obvia ni de esas que se puedan hacer de cabeza – aunque no estará fuera del alcance de mucha gente, y supone un reto mayor.</p>
+
+<p>La solución en este <a href="https://solvemymaths.com/2016/11/02/area-problem-25/">enlace</a> y en <a href="https://twitter.com/pickover/status/1013590448651325440">este hilo</a> – pero ojo que muchísima gente ha dado respuestas incorrectas. </p>
+
+<p class="imagen" align="center"><a href="https://solvemymaths.com/2016/11/02/area-problem-25/"><img src="//img.microsiervos.com/images2018/hexa-hex.jpg" width="40%" alt="Hexágono en hexágono / SolveMyMaths.com" title="Hexágono en hexágono / SolveMyMaths.com" /></a><br/><cite>¿Qué fracción está sombreada?</cite></p>
+
+<p><em>Bonus:</em> Si te ha parecido fácil, prueba a calcular <a href="https://solvemymaths.com/2016/10/29/what-fraction-is-shaded/"><strong>qué fracción del área del hexágono grande está sombrada</strong></a> sabiendo que su área es el hexágono inscrito más pequeño.</p>
+
+<p>(Vía <a href="https://twitter.com/pickover/status/1013590448651325440">@Pickover</a>.)</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/puzzles-y-rubik/problema-geometrico-envoltorio-cubo.html">Un problema geométrico sobre el envoltorio de un cubo con papel</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/circulos-problema-geometria.html">Círculos: cuestión de geometría</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ordenadores/resolver-problemas-geometricos.html">Cómo resolver problemas geométricos con programas informáticos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/150-problemas-matematicos.html">Los 150 problemas matemáticos de Nick</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/problema-tres-triangulos.html">El problema de los tres triángulos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/euclides-el-juego.html">Euclides, el juego: una forma lúdica de repasar (o aprender) geometría</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/la-ciudad-de-konigsberg-sus-siete-puentes-y-la-teoria-de-grafos.html">La ciudad de Königsberg, sus siete puentes y la teoría de grafos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/angulos-triangulos-180.html">Los ángulos de un triángulo suman 180 grados: demostración</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/mathcaching.html">MathCaching</a></li>
+<li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/el-burro-y-la-alfalfa.html">El burro y la alfalfa</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/problema-geometrico-circulos-cuadrados-area.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/juegos-y-diversion/problema-geometrico-circulos-cuadrados-area.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/juegos-y-diversion/problema-geometrico-circulos-cuadrados-area.html</guid>
+         <category>Juegos y Diversión</category>
+         <pubDate>Wed, 04 Jul 2018 15:58:40 +0100</pubDate>
+         <!-- ItemID 149420 -->
+      </item>
+
+      <item>
+      <title>El cubo robótico de Rubik que «se resuelve a sí mismo»</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/qt_YYSK889k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Esto es más que <a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/maquina-record-cubo-rubik-0-38-segundos.html">un robot que resuelve el cubo de Rubik</a>: es <strong>un cubo de Rubik que se resuelve a sí mismo.</strong> Encierra un ingenioso mecanismo motorizado que reconoce la posición de cada cara y puede moverlas – aunque a cámara lenta casi. El cubo tiene unas medidas algo más grandes de lo habitual y está apoyado sobre una base.</p>
+
+<p><strong>Como «cubo automático» es bastante ingenioso;</strong> por ejemplo tras «revolverlo» hay que girar la parte superior 4 veces en el sentido de las agujas del reloj –lo cual lo deja como estaba– a modo de «indicación para que comience a resolverse sólo. Así no necesita botones.</p>
+
+<p><strong>Todas las caras son móviles,</strong> aunque como puede verse a lo largo del video nunca se mueve solo la cara superior, sino la superior y la intermedia, lo cual equivale a un giro de la cara inferior en sentido contrario – que por otro lado siempre está fija. El cubo no se limita a «dar marcha atrás» a los movimientos que se hacen para revolverlo, sino que encuentra una solución mejor teniendo en cuenta las limitaciones de movimientos y las posiciones de cada pieza. Muy ingenioso.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/maquina-record-cubo-rubik-0-38-segundos.html">Una máquina de récord que resuelve el cubo de Rubik en 0,38 segundos</a></li>
+<li><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/algoritmo-inteligente-cubo-rubik.html">Un algoritmo que resuelve el Cubo de Rubik «sin asistencia humana»</a></li>
+<li><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/robot-resuelve-cubo-rubik-record-2-39.html">El robot que resuelve cubos de Rubik ha batido su propio récord</a></li>
+<li><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/robot-lego-cubo-rubik-record.html">Un robot de LEGO bate el récord del mundo humano del Cubo de Rubik</a></li>
+<li><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/nuevo-robot-resolver-cubo-de-rubik.html">Un nuevo robot para resolver el cubo de Rubik a toda velocidad</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/puzzles-y-rubik/cubo-robotico-rubik.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/puzzles-y-rubik/cubo-robotico-rubik.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/puzzles-y-rubik/cubo-robotico-rubik.html</guid>
+         <category>Puzzles y Rubik</category>
+         <pubDate>Wed, 04 Jul 2018 13:43:31 +0100</pubDate>
+         <!-- ItemID 149419 -->
+      </item>
+
+      <item>
+      <title>El Nokia 8110 «reloaded» de Matrix ya está de nuevo en las tiendas, en versión renovada (y en… ¡amarillo!)</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p><a href="http://www.hmdglobal.com/"><img src="//img.microsiervos.com/images2018/Nokia-8110-Reloaded.jpg" width="25%" align="right" hspace="10" vspace="5" alt="Nokia 8110 Reloaded" title="Nokia 8110 Reloaded" /></a> Acaban de anunciar que el mítico <a href="http://www.hmdglobal.com/"><strong>Nokia 8110</strong></a> con tapa móvil que usaban Neo y Morfeo en <a href="https://www.microsiervos.com/archivo/peliculas-tv/matrix.html">The Matrix</a> y cuya renovación se había anunciado a bombo y platillo se puede ya comprar en España a unos 79 euros en los puntos de venta habituales (también está <a href="https://www.amazon.es/gp/product/B07CNSPBWV?tag=microsiervos-21">en Amazon</a> pero más caro, alrededor de 110-120€ – negocio para coleccionistas si se agotan rápido).</p>
+
+<p>Se trata de un modelo bastante <em>retro-vintage</em>, aunque al menos es 4G. Tiene una cámara de 2 megapíxeles –de los tiempos de Matrix– y pantalla QVGA de baja resolución. El sistema es una variante especial de Kaios, así que hay que olvidarse de Android. Total, solo lleva medio GB de memoria así que tampoco es que permita hacer muchas cosas. <strong>Es un objeto retro,</strong> así que no le pidamos peras al olmo, nadie se lo va a comprar por su «funcionalidad». Eso sí, batería se supone que <em>dura y dura</em> (hasta 25 días en espera).</p>
+
+<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/Nokia_8110_Matrix.jpg" width="100%" alt="Nokia 8110 Reloaded" title="Nokia 8110 Reloaded" /><cite>«¿Oye eso, Mr. Anderson? Es el sonido de lo inevitable»</p>
+
+<p>Pero lo más llamativo es sin duda el <strong>color amarillo-plátano-mis-ojos-mis-ojos,</strong> que lejos del elegante gris del original dañará las retinas de más de algún incauto. En fin, es lo que tiene las <a href="https://www.microsiervos.com/archivo/gadgets/el-nokia-3310-renacido.html">resurrecciones de modelos antiguos</a>, que al añadirles un «toquecito».</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/gadgets/el-nokia-3310-renacido.html">El Nokia 3310 renacido</a></li>
+<li><a href="https://www.microsiervos.com/archivo/gadgets/nokia-3310-no-es-nokia-3310.html">El Nokia 3310 que no es el Nokia 3310</a></li>
+<li><a href="https://www.microsiervos.com/archivo/gadgets/nokia-3310-vuelve-este-ano-17-anos-despues-dicen.html">El Nokia 3310 vuelve 17 años después (eso dicen)</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/gadgets/nokia-8110-matrix-tiendas.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/gadgets/nokia-8110-matrix-tiendas.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/gadgets/nokia-8110-matrix-tiendas.html</guid>
+         <category>Gadgets</category>
+         <pubDate>Wed, 04 Jul 2018 13:33:14 +0100</pubDate>
+         <!-- ItemID 149418 -->
+      </item>
+
+      <item>
+      <title>19.000 aviones volando a la vez</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Yesterday was the busiest day of the year in the skies so far and our busiest day ever. 202,157 flights tracked! The first time we&#39;ve tracked more than 200,000 flights in a single day on <a href="https://t.co/krDfUYSbzK">https://t.co/krDfUYSbzK</a> <a href="https://t.co/ApCMHaVEQp">pic.twitter.com/ApCMHaVEQp</a></p>&mdash; Flightradar24 (@flightradar24) <a href="https://twitter.com/flightradar24/status/1013088775973556224?ref_src=twsrc%5Etfw">30 de junio de 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>El pasado 29 de junio fue el día con más aviones volando por todo el mundo, <a href="https://twitter.com/flightradar24/status/1013088775973556224">según Flightradar24</a>: en un momento dado llegaron a volar simultáneamente hasta 19.000 aviones, en "hora punta", y en el plazo de 24 horas Flightradar24 llegó a monitorizar 202.157 vuelos.</p>
+
+<p>"Esta ha sido la primra vez que hemos monitorizado más de 200.000 vuelos en un solo día", aseguran.</p>
+
+<p>Dependiendo a quién preguntes el número total de aviones —en todo el mundo— se sitúa entre los 23.600 y los 39.000.</p>
+
+<p>En <em>The Telegraph,</em> <a href="https://www.telegraph.co.uk/travel/travel-truths/how-many-planes-are-there-in-the-world/">How many planes are there in the world right now?</a>,</p>
+
+<blockquote>Según Ascend el número total de aeronaves actualmente en servicio es de aproximadamente 23.600, lo que incluye aviones de pasajeros y de carga. Se calcula que hay 2.500 más en el almacén.<br /><br />Otra estimación de <a href="http://www.airliners.net">airliners.net</a> que incluye todos los aviones comerciales y militares (pero no los aviones ligeros) afirma que hay unos 39.000 aviones en el mundo - y que a lo largo de la historia, ha habido más de 150.000.</blockquote>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/aerotrastorno/19000-aviones-volando-a-la-vez.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/aerotrastorno/19000-aviones-volando-a-la-vez.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/aerotrastorno/19000-aviones-volando-a-la-vez.html</guid>
+         <category>Aerotrastorno</category>
+         <pubDate>Wed, 04 Jul 2018 13:07:04 +0100</pubDate>
+         <!-- ItemID 149417 -->
+      </item>
+
+      <item>
+      <title>Mario Kart recreado en Fortnite Playground</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/axQ3nRvZwms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Esta recreación de Mario Kart de usuario de Reddit <strong>JoshB_C</strong> está hecha en el nuevo modo de juego Playground de Fortnite.</p>
+
+<p>El modo Playground recientemente añadido a Fortnite es, según Epic, "un entorno más relajado donde dejar volar la creatividad" — algo así como el modo creativo de Minecraft.</p>
+
+<p>"Resulta que en Fortnite se pueden hacer un montón de cosas cuando no tienes a todo el mundo tratando de matarte," <a href="https://www.cnet.com/news/someone-recreated-mario-kart-in-fortnite-playground/">dicen en Cnet</a>.</p>
+
+<p>Como por ejemplo <a href="https://www.reddit.com/r/FortNiteBR/comments/8vwrrf/we_made_mario_kart_in_fortnite/"><strong>recrear un circuito de Mario Kart</strong></a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/juegos-y-diversion/mario-kart-recreado-en-fortnite-playground.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/juegos-y-diversion/mario-kart-recreado-en-fortnite-playground.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/juegos-y-diversion/mario-kart-recreado-en-fortnite-playground.html</guid>
+         <category>Juegos y Diversión</category>
+         <pubDate>Wed, 04 Jul 2018 12:53:49 +0100</pubDate>
+         <!-- ItemID 149416 -->
+      </item>
+
+      <item>
+      <title>Abby Rowed: un clásico de la cultura pop musical en versión animada</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe src="https://player.vimeo.com/video/277780801?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+<p><a href="https://vimeo.com/pierregombaud">Pierre Gombaud</a> ha dedicado un buen rato a recrear la famosa portada del <a href="https://es.wikipedia.org/wiki/Abbey_Road_(%C3%A1lbum)">Abby Road</a> de los Beatles en una especie de 2D/3D y animarla, dando lugar a un videoclip titulado <strong>Abby Rowed</strong> bastante peculiar, en el que se cuelan otros personajes – incluso un Monty Python.</p>
+
+<p>Como es bien sabido esa estampa es una de las <strong>más famosas y más imitadas imágenes que haya dado la música pop.</strong> El icónico paso de cebra está justo al lado del <a href="https://es.wikipedia.org/wiki/Abbey_Road_Studios">Estudios EMI</a> en Abbey Road. La fotografía es de <a href="https://en.wikipedia.org/wiki/Iain_Macmillan">Iain Macmillan</a>, a quien le dieron sólo 10 minutos en los que pudo realizar 6 disparos, de los que McCartney eligió su preferido. El álbum no lleva título ni el nombre del grupo porque los Beatles ya eran tan famosos que no les hacía falta.</p>
+
+<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/AbbeyRoad_Iain_Macillan.jpg" width="60%" alt="Abbey Road / Iain Macmillan" title="Abbey Road / Iain Macmillan" /><br/><cite>Portada de <em>Abby Road</em>, por Iain Macmillan / Kosh</cite></p>
+
+<p>La portada es también famosa por ser una de las más raras <em>conspiranoias</em> del mundo de la música pop, conocida como <a href="https://es.wikipedia.org/wiki/Paul_est%C3%A1_muerto">Paul está muerto</a>. Básicamente sugiere que en realidad Paul McCartney <strong>ya estaba muerto cuando se hizo la foto</strong> y fue sustituido por un doble – que ha perdurado hasta nuestros días. Según esa teoría, tanto en las letras de las canciones como en la portada habría un montón de «pistas» al respecto, como que McCartney es el único que lleva el paso cambiado, el cigarrillo en la mano contraria y la matrícula del coche es 281F <em>(«28 si…»)</em> que indicaría que muestra «cómo sería el beatle» si hubiera cumplido 28 años.</p>
+
+<p>Como curiosidad el paso de cebra está <a href="https://en.wikipedia.org/wiki/Abbey_Road,_London">tan lleno de turistas y fans de los Beatles</a> haciéndose fotos todos los días del año que los responsables del tráfico se han planteado muchas veces qué hacer, porque la calle es bastante concurrida. <strong>Se desgasta tanto que lo pintan cada tres meses,</strong> algo poco habitual. Además de eso la gente robaba tan a menudo la placa de la calle «Abbey Road NW8 / City of Westminster» que acabaron colgándola en las alturas para que fuera más difícil llegar hasta ella.</p>
+
+<p>En la animación de Gombaud parte de la música es <a href="//youtube.com/watch?v=ZYyHREbwFrg">Two Finger Chord &amp; Whistle</a> del propio Paul McCartney. Entre el software que ha utilizado: Moho Pro, Cinema 3D, Vegas Pro y Adobe Photoshop.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/musica/abby-rowed-road-animacion-beatles.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/musica/abby-rowed-road-animacion-beatles.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/musica/abby-rowed-road-animacion-beatles.html</guid>
+         <category>Música</category>
+         <pubDate>Wed, 04 Jul 2018 10:31:59 +0100</pubDate>
+         <!-- ItemID 149415 -->
+      </item>
+
+      <item>
+      <title>Los paracaídas de la cápsula tripulada Crew Dragon progresan adecuadamente</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/kto1c4pcZ-w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Al mismo tiempo que SpaceX está «torturando» una cápsula tripulada Crew Dragon en el interior de la <i>Space Power Facility</i> para comprobar que sus sistemas pueden <a href="https://www.microsiervos.com/archivo/espacio/crew-dragon-pasando-pruebas-vacio.html">soportar los rigores del espacio</a> está haciendo pruebas del sistema de <strong>paracaídas</strong> con un modelo que tiene la forma y el peso de una cápsula completa.</p>
+
+<p>En concreto acaba de hacer la <strong>prueba número 16</strong> del sistema, en este caso diseñada para comprobar que en el caso de tener que abortar un lanzamiento a baja altura los paracaídas se despliegan a tiempo y en forma para asegurar un aterrizaje suave. Los paracaídas tienen que estar listos para cuando la Crew Dragon tenga que hacer una prueba real de un lanzamiento abortado, lo que está previsto para su segunda misión.</p>
+
+<p>Pero antes llevará a cabo una misión <strong>no tripulada</strong> en la que atracará con la Estación Espacial Internacional, permanecerá allí unos días, y volverá a Tierra. Conocida como <a href="https://en.wikipedia.org/wiki/SpX-DM1"><strong>SpX-DM1</strong></a>, esa misión tiene ahora mismo como <a href="https://twitter.com/ShuttleAlmanac/status/1014092542252478469">fecha prevista</a> una ventana que va del 3<strong>0 de agosto al 13 de septiembre de 2018</strong>, aunque la primera misión de la Starliner CST-100 de Boeing tiene reservada la misma ventana. Y con toda seguridad no volarán las dos a la vez por cuestiones de seguridad.</p>
+
+<p>En cualquier caso, cuando se produzca el primer lanzamiento de cualquiera de las dos será la primera vez que los Estados Unidos estrenen una nave espacial tripulada desde que el 12 de abril de 1981 el Columbia despegara en la misión <a href="https://es.wikipedia.org/wiki/STS-1">STS-1</a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/pruebas-paracaidas-crew-dragon.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/pruebas-paracaidas-crew-dragon.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/pruebas-paracaidas-crew-dragon.html</guid>
+         <category>Espacio</category>
+         <pubDate>Wed, 04 Jul 2018 09:00:00 +0100</pubDate>
+         <!-- ItemID 149411 -->
+      </item>
+
+      <item>
+      <title>La comunidad de Reddit dedicada a Thanos expulsará a la mitad de sus miembros</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p align="center"><em style="font-size:80%;">(Peligro de <strong>spoiler</strong> the Infinity War si se sigue algún enlace)</em></p>
+
+<p class="imagen"><img src="//img.microsiervos.com/thanos-marvel-18.jpg" alt="Thanos marvel 18" title="thanos-marvel-18.jpg" border="0" width="100%" /></p>
+
+<p>"Perfectamente equilibrados", tanto el Universo como el subReddit que honra a Thanos: la comunidad <a href="https://www.reddit.com/r/thanosdidnothingwrong/comments/8vz0a3/articles_written_about_our_sacrifices_so_far/"><strong>r/ThanosDidNothingWrong</strong></a> <em>(Thanos no hizo nada malo)</em> borrará aleatoriamente a 133.000 de los 266.000 miembros que la forman.</p>
+
+<p>La ironía del asunto es que la decisión de borrar a la mitad de sus miembros ha disparado la popularidad de este grupo, que en los últimos días casi triplicado el número de suscriptores. Inicialmente el borrado afectaría <em>sólo</em> a unas 50.000 cuentas. "Este sub[Reddit] va a tener más suscriptores después del borrado que antes."</p>
+
+<p>Muchos de los suscriptores se muestran <em>entusiasmados</em> con la idea de ser <em>baneados</em> del grupo y esperan con impaciencia la llegada del día 9 de junio. Tuvieron el detalle de aplazar la ejecución por si acaso un <em>baneo</em> masivo tenía algún efecto en el sistema: "Hacer una expulsión masiva el día antes del 4 de julio era una mala idea porque muchos de los ingenieros de Reddit están fuera con sus familias."</p>
+
+<p>Otro <a href="https://www.businessinsider.es/thanos-subreddit-planning-ban-on-half-of-users-to-honor-infinity-war-2018-7?r=US&IR=T">usuario observa que</a> en tanto <em>banear</em> cuentas no afecta al contador de suscriptores del grupo "si Thanos nos elige deberíamos acordar cancelar la suscripción."</p>
+
+<p>"Es divertido ver el entusiasmo con el que Internet acepta esta idea", <a href="https://www.theverge.com/2018/7/3/17530668/thanos-subreddit-avengers-infinity-war">dice uno de los administradores</a> a <em>The Verge.</em> "Creo que la parte más hilarante es ver a la gente hacer bromas sobre algo que en su momento nos impresionó mucho. Es como hacer bromas muy macabras y ofensivas sin capacidad de ofender a nadie, lo cual es perfecto".</p>
+
+<p>Imagen: Marvel.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/humor/comunidad-reddit-dedicada-thanos-expulsara-mitad-miembros.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/humor/comunidad-reddit-dedicada-thanos-expulsara-mitad-miembros.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/humor/comunidad-reddit-dedicada-thanos-expulsara-mitad-miembros.html</guid>
+         <category>Humor</category>
+         <pubDate>Wed, 04 Jul 2018 07:48:09 +0100</pubDate>
+         <!-- ItemID 149414 -->
+      </item>
+
+      <item>
+      <title>Experimental Jetset: el lenguaje convertido en objetos de arte tipográfico</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://www.experimentaljetset.nl/preview"><img src="http://img.microsiervos.com/images2018/lfps-08.jpg" width="100%" alt="A0 A1 A2 A3 A4… / Experimental Jetset" title="A0 A1 A2 A3 A4… / Experimental Jetset" /></a><br/><cite><a href="https://www.experimentaljetset.nl/archive/lost-formats-winterthur">Formatos perdidos</a> / Experimental Jetset</cite></p>
+
+<p>El archivo de <a href="https://www.experimentaljetset.nl/preview"><strong>Experimental Jetset</strong></a> tiene una amplia colección de obras de arte muy tipográficas – en la que las letras de palo seco y especialmente la <a href="http://www.microsiervos.com/archivo/arte-y-diseno/helvetica.html">Helvetica</a> son protagonistas. Dicen que su metodología consiste en <strong>«convertir el lenguaje en objetos».</strong> </p>
+
+<p>También tienen <a href="https://www.experimentaljetset.nl/archive/t-shirt-ttq-spring">camisetas por trimestres</a>, <a href="https://www.experimentaljetset.nl/archive/flag-show">banderas</a>, <a href="https://www.experimentaljetset.nl/archive/modern-love">imágenes para chats</a> o incluso <a href="https://www.experimentaljetset.nl/archive/superstructure">montajes más elaborados</a>. La «cabina» <strong>A0 A1 A2 A3</strong> sobre con la <a href="http://www.microsiervos.com/archivo/arte-y-diseno/a0-1-m2-100-gr.html">normalización DIN</a> como protagonista me pareció especialmente brillante. </p>
+
+<p><br />
+En su <a href="https://www.experimentaljetset.nl/news">weblog</a> van anotando con enlaces todas las exposiciones que van realizando en diversas partes del mundo – que <a href="https://www.experimentaljetset.nl/">no han sido pocas</a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/arte-y-diseno/experimental-jetset-tipografia.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/arte-y-diseno/experimental-jetset-tipografia.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/arte-y-diseno/experimental-jetset-tipografia.html</guid>
+         <category>Arte y Diseño</category>
+         <pubDate>Wed, 04 Jul 2018 00:02:07 +0100</pubDate>
+         <!-- ItemID 149413 -->
+      </item>
+
+      <item>
+      <title>El robot «descendiente de Asimo» de Honda recibiendo empujones y aguantando el tipo</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/UevFtYEimjw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Este robot de Honda que <a href="https://www.microsiervos.com/archivo/robots/prototipo-robot-rescate-honda-progresa-adecuadamente-no-para-prisa.html">se dio a conocer el año pasado y se llama E2-DR</a> es ya un poco como <strong>el hijo de Asimo</strong> – dado que el emblemático y entrañable robotijo fue <em>retirado</em> recientemente y enviado a <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/honda-halts-asimo-development-in-favor-of-more-useful-humanoid-robots">reunirse en el más allá con el dios de la biomecánica</a>. DEP.</p>
+
+<p>En este vídeo sus creadores muestran un trabajo reciente que han realizado sobre sus algoritmos, sensores y mecanismos que han dado en llamar <strong>Transición dinámica de la marcha entre caminar, correr y saltar para la recuperación ante empujes</strong>. En palabras más llanas: <em>salvar su culo cuando lo fostian.</em> Para tal tarea en el puntaro laboratorio emplean lo último en tecnología: <strong>dos palos</strong>, uno para empujarlo y otro para sujetarlo con una percha por si acaso el invento no funciona y se cae de verdad.</p>
+
+<p>Definitivamente es menos cruel que <a href="https://wtf.microsiervos.com/eltubo/ninos-fostiando-a-un-robot.html">los niños fostiando a un robot</a> o aquellas pruebas en las que <a href="https://www.microsiervos.com/archivo/tecnologia/robot-fostiado-a-patadas.html">molían</a> a <a href="https://www.microsiervos.com/archivo/tecnologia/ejercito-skynet-no-caerse-manos-roboticas.html">patadas</a> a otros modelos. Aun así lo humano de sus movimientos y su aspecto indefenso y para nada vengativo nos hacen sentir empatía por E2-DR. Quizá por eso es difícil no dejar de pensar que si un día se rebelan nos echarán estos vídeos en cara. Por suerte –como se suele decir– «ninguna máquina resultó dañada durante el rodaje del vídeo.»</p>
+
+<p>Buen momento para recordar la existencia de la</p>
+
+<ul>
+<li><a href="http://www.aspcr.com/">American Society for the Prevention of Cruelty to Robots</a></li>
+</ul>
+
+<p>Una sociedad que –no es coña– contempla que «los robots también son personas» y que los «seres artificiales inteligentes también son seres conscientes». A debatir.</p>
+
+<p>(Vía <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/asimo-still-improving-its-hopping-and-jogging-skills">Spectrum</a>.)</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/robots/prototipo-robot-rescate-honda-progresa-adecuadamente-no-para-prisa.html">Este robot de rescate de Honda progresa adecuadamente, aunque de momento no está para una prisa</a></li>
+<li><a href="https://www.microsiervos.com/archivo/tecnologia/ejercito-skynet-no-caerse-manos-roboticas.html">«Y en sus inicios el ejército de Skynet aprendió a no caerse usando sus manos robóticas…»</a></li>
+<li><a href="https://wtf.microsiervos.com/eltubo/ninos-fostiando-a-un-robot.html">Niños fostiando a un robot</a></li>
+<li><a href="https://www.microsiervos.com/archivo/tecnologia/robot-fostiado-a-patadas.html">El robot bípedo que resiste sin problemas ser fostiado a patadas</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/robots/robot-honda-recibiendo-palos-asimov.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/robots/robot-honda-recibiendo-palos-asimov.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/robots/robot-honda-recibiendo-palos-asimov.html</guid>
+         <category>Robots</category>
+         <pubDate>Tue, 03 Jul 2018 23:58:27 +0100</pubDate>
+         <!-- ItemID 149412 -->
+      </item>
+
+      <item>
+      <title>Nuevas versiones «remasterizadas» de 210 vídeos de explosiones atómicas – y cómo se analizan</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/H5zK2qmo2Pg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Los documentalistas del <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a> acaban de subir nuevas versiones <em>remasterizadas</em> de <a href="https://www.youtube.com/user/LivermoreLab/videos"><strong>más de 200 películas de explosiones atómicas</strong></a> de sus archivos. Unos documentos gráficos la mar de interesantes, tan espectaculares como estremecedores – y al mismo tiempo <strong>importantes para los físicos.</strong></p>
+
+<p>Tal y <a href="https://www.microsiervos.com/archivo/mundoreal/decenas-explosiones-nucleares-camara-lenta.html">como contaba Wicho</a> el año pasado cuando se publicaron en una primera versión:</p>
+
+<blockquote>Entre 1945 y 1962 los Estados Unidos detonaron ni más ni menos que <strong>210 dispositivos nucleares</strong> para hacer pruebas de desarrollo. Cada una de las detonaciones fue filmada por múltiples cámaras a unos 2.400 fotogramas por segundo. <strong>En total se filmaron unas 10.000 tomas distintas</strong> que terminaron más o menos abandonadas en distintos depósitos de alta seguridad del país hasta que Greg Spriggs y un equipo de archivistas, expertos en película y programadores del Laboratorio Nacional Lawrence Livermore se pusieron a localizarlas, escanearlas, y analizarlas de nuevo.</blockquote>
+
+<p>Estos nuevos vídeos de las distintas «operaciones» son la mayoría en blanco y negro pero también algunos en color. Están <strong>digitalizados a en HD a 1440p</strong> (el doble que los 720p que se venían usando hasta ahora). Los grabados a 240 fps se ven un poco mejor a velocidad ×2 más que nada porque son más «llamativos». El original era película de 35mm fotografiada con teleobjetivos a gran distancia –ejem, por razones obvias– que luego se podía ver y revisar en un aparato llamado <a href="https://en.wikipedia.org/wiki/Microform">Recordak</a>.</p>
+
+<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/tsOrRWzmmUU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>En este otro vídeo de hace unos meses un físico del laboratorio responde a las <strong>preguntas frecuentes sobre las películas de pruebas nucleares</strong> y por qué son importantes: se utilizan para calibrar con mayor precisión los tiempos de las cosas que suceden en la explosión (y así alimentar simulaciones y realizar pruebas sin tener que explotar bombas de verdad) y para examinar con más detalle las ondas de choque (al digitalizar la película con más definición).</p>
+
+<p>Algunas de las cosas que suelen examinarse con gran detalle son la <strong>radiación</strong>, el <strong>calor</strong> y la <strong>onda de choque expansiva</strong> (que se mueve a Mach 100, esto es: cien veces la velocidad del sonido). También analizan cómo se comporta la geometría de la explosión según ésta se produjera bajo tierra, en torres o en el aire – que de todo tipo de pruebas hubo.</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/decenas-explosiones-nucleares-camara-lenta.html">Decenas de explosiones nucleares a cámara lenta (versión 720p)</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/nuevo-estudio-ensayos-atomicos-letales-efectos-largo-plazo.html">Un nuevo estudio sobre los ensayos atómicos y sus letales efectos</a></li>
+<li><a href="https://www.microsiervos.com/archivo/fotografia/camaras-proyectiles-vuelo-explosiones-nucleares.html">Cómo funcionan las cámaras que filman proyectiles o explosiones nucleares instantáneas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/rapatronic-explosiones-nucleares.html">Fotografías de explosiones atómicas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/grandes-explosiones-atomicas.html">Grandes explosiones atómicas</a></li>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/bombas-atomicas.html">Bombas atómicas y demostraciones de fuerza</a></li>
+<li><a href="https://www.microsiervos.com/archivo/ciencia/alcantarillas-voladoras-explosiones-nucleares.html">Tapas de alcantarillas voladoras y explosiones nucleares</a></li>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/50-aniversario-primera-explosion-nuclear-espacio.html">50 aniversario de la explosión nuclear más potente en el espacio</a></li>
+<li><a href="https://www.microsiervos.com/archivo/mundoreal/nukemap-otra-calculadora-de-destruccion-nuclear.html">Nukemap, otra calculadora de destrucción nuclear</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/ciencia/versiones-remasterizadas-videos-explosiones-atomicas.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/ciencia/versiones-remasterizadas-videos-explosiones-atomicas.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/ciencia/versiones-remasterizadas-videos-explosiones-atomicas.html</guid>
+         <category>Ciencia</category>
+         <pubDate>Tue, 03 Jul 2018 20:53:34 +0100</pubDate>
+         <!-- ItemID 149409 -->
+      </item>
+
+      <item>
+      <title>El plan es remolcar un iceberg hasta Sudáfrica para suministrar agua a Ciudad del Cabo</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="imagen"><img src="http://www.microsiervos.com/images/yuriy-rzhemovskiy-251097-unsplash.jpg" alt="Yuriy rzhemovskiy 251097 unsplash" title="yuriy-rzhemovskiy-251097-unsplash.jpg" border="0" width="100%" /></p>
+
+<p>La conocida como "crisis hídrica de Ciudad del Cabo" fue el resultado de cuatro años consecutivos de sequía, desde 2015, que llevó a la capital sudafricana hasta el límite de las reservas de agua. Hasta el punto que en los primeros meses de este año fue imperativo racionar y limitar su consumo. La llegada del otoño, en marzo, alivió la situación.</p>
+
+<p>"Sin embargo se espera que la amenaza vuelva a la ciudad costera  el próximo año y los siguientes", dicen en <em>Phys.org,</em> <a href="https://phys.org/news/2018-07-tow-an-iceberg-ease-cape-town-drought.amp"><strong>The tow-an-iceberg plan being floated to ease Cape Town drought</strong></a>.</p>
+
+<p>Ante esa perspectiva Nick Sloane propone "un plan desesperado para una situación extrema": remolcar un iceberg desde la Antártida hasta las proximidades de Ciudad del Cabo, a unos 2.000 km al norte.</p>
+
+<p>Nick Sloane admite que su plan es "una locura" y probablemente está  <em>bastante</em> autorizado a hacer esa afirmación: fue el tipo que <a href="https://en.wikipedia.org/wiki/Nick_Sloane_(salvage_expert)">rescató el crucero Costa Concordia</a>.</p>
+
+<blockquote>El iceberg, cuidadosamente seleccionado, tendría una longitud aproximada de un kilómetro, 500 metros de ancho y hasta 250 metros de profundidad, con una superficie plana. El agua derretida (...) produciría 150 millones de litros de agua cada día, durante un año.</blockquote>
+
+<p>Sloane calcula que ofrecer a la ciudad "el agua más pura del planeta" costaría unos 90 millones de euros, más otros 40 o 50 millones para canalizar y capturar el agua conforme se derrite el iceberg y transportarla a tierra firme, a unos 150 km de donde se mantendría el bloque de hielo.</p>
+
+<p>El problema es que no hay ninguna garantía de que el plan <em>llegue a buen puerto</em>, que el iceberg no se rompa por el camino o que el asunto acabe de cualquier manera. Y un iceberg de ese tamaño ni siquiera solucionaría los problemas hídricos de Ciudad del Cabo: "como mucho cubriría el 20 o 30 por ciento de las necesidades de la ciudad", admite Sloane.</p>
+
+<p>Fotografía: <a href="https://unsplash.com/photos/ACam5NbFiwo">Yuriy Rzhemovskiy, Unsplash</a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/mundoreal/plan-remolcar-iceberg-sudafrica-suministrar-agua-ciudad-del-cabo.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/mundoreal/plan-remolcar-iceberg-sudafrica-suministrar-agua-ciudad-del-cabo.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/mundoreal/plan-remolcar-iceberg-sudafrica-suministrar-agua-ciudad-del-cabo.html</guid>
+         <category>MundoReal™</category>
+         <pubDate>Tue, 03 Jul 2018 19:49:07 +0100</pubDate>
+         <!-- ItemID 149410 -->
+      </item>
+
+      <item>
+      <title>Dos días para la votación de los artículos 11 y 13 de la revisión de la Directiva sobre derechos de autor de la Unión Europea</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/qQKB29cBmDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>El <strong>5 de julio de 2018 al mediodía</strong> los 751 miembros del Parlamento Europeo están llamados a votar si aprueban o no el artículo 11 y el artículo 13 de la revisión de la Directiva sobre derechos de autor de la Unión Europea.</p>
+
+<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/LinkTaxError.jpg" width="100%" alt="Si no pagas no lees" title="Si no pagas no lees"></p>
+
+<p>El <strong>Artículo 11</strong> permitirá a los editores de prensa reclamar compensaciones económicas por enlazar sus contenidos por un periodo de 20 años si al hacerlo incluyes cosas tan locas como el título del artículo con el que enlazas o previsualizaciones al estilo de las que hace Facebook o pequeños extractos como los de Google.</p>
+
+<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/Articulo13Errores.jpg" width="100%" alt="Filtrando" title="Filtrando"></p>
+
+<p>Pero el <strong>Artículo 13</strong> es mucho peor, ya que exigirá a cualquier sitio al que los usuarios puedan subir contenidos que instale filtros para detectar si lo que se está subiendo está sujeto a derechos de autor –lo que no quiere decir que al subirlos se estén violando estos, ojo– y además prevé responsabilizar al sitio en el caso de que se cometa una infracción.</p>
+
+<p>Se supone que los políticos nos representan, así que la idea es intentar comunicarles que esto que quieren hacer con Internen <em>no mola nada</em> para que voten en contra. En <a href="https://saveyourinternet.eu/es/">SaveyourInternet</a> hay consejos acerca de lo que se puede decir y argumentar para pedir esto respecto al Artículo 13; en <a href="https://act.openmedia.org/savethelink-call-es">SaveTheLink</a> hay información similar acerca del Artículo 11.</p>
+
+<p>(Vía <a href="https://juliareda.eu/2018/06/article-11-13-vote/">Julia Reda</a>).</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/internet/dos-dias-votacion-articulo-11-13-derechos-autor-ue.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/internet/dos-dias-votacion-articulo-11-13-derechos-autor-ue.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/internet/dos-dias-votacion-articulo-11-13-derechos-autor-ue.html</guid>
+         <category>Internet</category>
+         <pubDate>Tue, 03 Jul 2018 19:30:00 +0100</pubDate>
+         <!-- ItemID 149408 -->
+      </item>
+
+      <item>
+      <title>Airbus termina de montar el observatorio espacial Cheops</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/CHEOPSMontado.jpg" width="80%" alt="CHEOPS sobre su carro de transporte" title="¡Y no han sobrado piezas!" /></p>
+
+<p>Airbus ha <a href="http://www.airbus.com/newsroom/press-releases/es/2018/07/Airbus-completes-the-integration-of-Cheops-satellite.html"><strong>terminado de ensamblar</strong></a> el observatorio espacial <a href="https://www.microsiervos.com/archivo/espacio/cheops-mision-europea-estudiar-planetas-extrasolares-conocidos.html">Cheops</a>, lo que básicamente consiste en unir su carga útil –en este caso un telescopio <a href="https://es.wikipedia.org/wiki/Telescopio_Ritchey-Chrétien">Ritchey-Chrétien</a> de 30 cm de apertura y 1,2 m de longitud– con el bus de la nave, la parte en la que van los sistemas de guiado y comunicaciones y propulsión.</p>
+
+<p class="imagen" align="center"><img src="//img.microsiervos.com/images2018/CHEOPSTelescopioEsquema.jpg" width="70%" alt="El telescopio propiamente dicho" title="El telescopio propiamente dicho" /><br/><cite>Cheops monta un <a href="https://es.wikipedia.org/wiki/Fotometr%C3%ADa">fotómetro</a> con un CCD sobre el que enfoca el telescopio</cite></p>
+
+<p>Su objetivo es estudiar <a href="https://culturacientifica.com/2017/01/13/25-anos-planetas-extrasolares/">planetas extrasolares</a> con un radio  comprendido entre el de la Tierra y el de Neptuno que orbitan estrellas brillantes en nuestro vecindario local, aunque la idea no es que descubra planetas extrasolares nuevos sino que estudie con más detalle aquellos descubiertos por misiones como <a href="http://www.microsiervos.com/archivo/ciencia/apagado-para-siempre-corot-cazador-planetas-extrasolares-agencia-espacial-europea.html">CoRoT</a> y <a href="http://www.microsiervos.com/archivo/ciencia/telescopio-espacial-kepler-localiza-otros-1284-planetas-extrasolares.html">Kepler</a>.</p>
+
+<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/nQPhdCFiuDs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+
+<p>Cheops partirá el 9 de julio hacia Francia, Suiza y los Países Bajos para ser sometido a todo tipo de <strong>pruebas</strong> que confirmen que está listo para ser lanzado. En cuanto las pase volverá a Madrid para una revisión final antes de ser enviado al espaciopuerto de Kourou para su <strong>lanzamiento</strong>, previsto para finales de 2018 o principios de 2019.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li><a href="https://www.microsiervos.com/archivo/espacio/listos-dibujos-decoraran-telescopio-espacial-cheops.html">Listos los dibujos que decorarán el telescopio espacial Cheops</a></li>
+<li><a href="https://www.microsiervos.com/archivo/espacio/esa-escoge-logo-lanzamiento-observatorio-espacial-cheops.html">La Agencia Espacial Europea escoge logo para el lanzamiento del observatorio espacial Cheops</a></li>
+</ul>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/airbus-termina-montar-observatorio-espacial-cheops.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/airbus-termina-montar-observatorio-espacial-cheops.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/airbus-termina-montar-observatorio-espacial-cheops.html</guid>
+         <category>Espacio</category>
+         <pubDate>Tue, 03 Jul 2018 17:30:00 +0100</pubDate>
+         <!-- ItemID 149407 -->
+      </item>
+
+   </channel>
+</rss>

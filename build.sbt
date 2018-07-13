@@ -13,3 +13,6 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
 libraryDependencies += "com.typesafe.akka" %% "akka-actor" % akkaVersion
 libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.6.4"
 libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.5"
+libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.1.3"
+libraryDependencies += "com.typesafe.akka" %% "akka-stream" % "2.5.13"
+
