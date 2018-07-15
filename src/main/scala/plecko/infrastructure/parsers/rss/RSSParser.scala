@@ -9,19 +9,15 @@ import scala.io.Source
 
 object RSSParser {
   def main(args: Array[String]): Unit = {
-    val path: String = "file://"+RSSParser.getClass.getResource("microsiervos.xml").getPath
+    val content = Source.fromFile(RSSParser.getClass.getResource("microsiervos.xml").getPath).getLines().reduce((a,b)=> a+b)
     val parser = new RSSParser()
-    parser.parse(path).foreach(i => println(i.title))
+    parser.parse(content).foreach(i => println(i.title))
   }
 }
 
 class RSSParser extends Parser{
-  def parse(path: String):Seq[Item] = {
-    val html = Source.fromURL(path)
-    val s = html.mkString
-    println(s)
-    val xml = XML.load(new URL(path))
-    println(xml)
+  def parse(content: String):Seq[Item] = {
+    val xml = XML.loadString(content)
     xml \\ "item" map toItem
   }
 
