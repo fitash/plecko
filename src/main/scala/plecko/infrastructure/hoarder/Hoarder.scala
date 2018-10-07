@@ -13,24 +13,24 @@ import scala.language.{implicitConversions, postfixOps}
 import scala.util.{Failure, Success, Try}
 
 object Hoarder {
-  def props(feed: FeedDefinition, parser:RSSParser,repository: ActorRef) = Props(new Hoarder(feed, parser,repository))
+  def props(feed: FeedDefinition, parser: RSSParser, repository: ActorRef) = Props(new Hoarder(feed, parser, repository))
 }
 
 class Hoarder(val feed: FeedDefinition, val parser: RSSParser, val itemsRepository: ActorRef) extends Actor with ActorLogging {
   val retriever: ActorRef = getRetriever
-
- def getRetriever = {
-    context.actorOf(Retriever.props)
-  }
-
   implicit val timeout = Timeout(5 seconds)
 
   log.info(s"publish to $itemsRepository")
   context.system.scheduler.scheduleOnce(Duration(5, SECONDS), self, Hoard)
 
+  def getRetriever = {
+    context.actorOf(Retriever.props)
+  }
+
   val parseContent: Try[String] => Unit = {
     case Success(content) => {
-      parser.parse(content).foreach(itemsRepository ! _)}
+      parser.parse(content).foreach(itemsRepository ! _)
+    }
     case Failure(exception) => log.error(exception.getLocalizedMessage)
   }
 
@@ -38,7 +38,6 @@ class Hoarder(val feed: FeedDefinition, val parser: RSSParser, val itemsReposito
     case Hoard => {
       log.info(s"starting the hoard of ${feed.name} at ${feed.url}")
       (retriever ? Retriever.Retrieve(feed.url)).mapTo[String].onComplete(parseContent)
-      println("-->"+context.system.scheduler)
       context.system.scheduler.scheduleOnce(Duration(feed.frequency.toSeconds, SECONDS), self, Hoard)
     }
     case _ => {

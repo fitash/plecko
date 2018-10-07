@@ -16,6 +16,8 @@ object PleckoApp extends App {
   implicit val actorSystem = ActorSystem("Plecko")
   implicit val materializer = ActorMaterializer()
   implicit val jedis = jedisPool()
+ startActors();
+
 
   def jedisPool(): JedisPool={
     val port = actorSystem.settings.config.getInt("plecko.redis.port")

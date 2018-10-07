@@ -9,7 +9,6 @@ import redis.clients.jedis.JedisPool
 import scala.collection.JavaConverters._
 import scala.collection.mutable
 
-
 class ItemRedisDAO(implicit val jedisPool: JedisPool) {
   def delete(uri: String): Any = withJedis {
     jedis => {

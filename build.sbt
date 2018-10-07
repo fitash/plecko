@@ -20,3 +20,5 @@ libraryDependencies += "redis.clients" % "jedis" % "2.9.0"
 libraryDependencies += "com.github.kstyrc" % "embedded-redis" % "0.6"
 libraryDependencies += "org.mockito" % "mockito-scala_2.12" % "0.4.5"
 
+
+

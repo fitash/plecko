@@ -20,7 +20,6 @@ class RSSParser extends Parser {
     xml \\ "item" map toItem
   }
 
-
   def toItem(itemNode: Node): Item = {
     val url = (itemNode \ "url").text
     val title = (itemNode \ "title").text

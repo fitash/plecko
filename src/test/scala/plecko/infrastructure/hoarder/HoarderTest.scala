@@ -16,31 +16,34 @@ import scala.concurrent.duration.FiniteDuration
 
 class HoarderTest extends TestKit(ActorSystem()) with WordSpecLike with BeforeAndAfterAll with Matchers with MockitoSugar with ImplicitSender {
   val feedDefinition = new FeedDefinition("name", "m", new FiniteDuration(1, TimeUnit.SECONDS), 0)
-  val item = Item("url", "title", "content")
+  val itemA = Item("urlA", "titleA", "contentA")
+  val itemB = Item("urlB", "titleB", "contentB")
+
   val content = "Some content"
 
-  "A Hoarde" must {
+  "A Hoarder " must {
     "sen" in {
 
       val repository = TestProbe("repository")
-      val retrieverA = TestProbe("retriever")
+      val retrieverActor = TestProbe("retriever")
       val parser = mock[RSSParser]
 
       val hoarder = TestActorRef(new Hoarder(feedDefinition, parser, repository.ref) {
         override def getRetriever = {
-          retrieverA.ref
+          retrieverActor.ref
         }
       })
-      when(parser.parse(content)).thenReturn(List(item,item))
+      when(parser.parse(content)).thenReturn(List(itemA,itemB))
 
       hoarder ! Hoard
 
-      retrieverA.expectMsg(Retriever.Retrieve(feedDefinition.url))
+      retrieverActor.expectMsg(Retriever.Retrieve(feedDefinition.url))
 
-      retrieverA.reply(value)
+      retrieverActor.reply(content)
 
       verify(parser).parse(content)
-      repository.expectMsg(item)
+      repository.expectMsg(itemA)
+      repository.expectMsg(itemB)
     }
   }
 }
