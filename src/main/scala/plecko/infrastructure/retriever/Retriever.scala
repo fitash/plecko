@@ -2,8 +2,9 @@ package plecko.infrastructure.retriever
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import akka.actor.{Actor, ActorLogging, Props}
-import akka.stream.ActorMaterializer
 import plecko.infrastructure.retriever.Retriever.Retrieve
+import plecko.PleckoApp.actorSystem
+import plecko.PleckoApp.materializer
 import akka.pattern.pipe
 
 object Retriever {
@@ -14,12 +15,11 @@ object Retriever {
 }
 
 class Retriever extends Actor with ActorLogging {
-  implicit val sytem = context.system
-  implicit val materializer = ActorMaterializer()
+
   val client: Client = new Client
 
 
   override def receive: Receive = {
-    case Retrieve(url) => client.retrieve(url).mapTo[String].pipeTo(sender())
+      case Retrieve(url) => client.retrieve(url).mapTo[String].pipeTo(sender())
   }
 }
