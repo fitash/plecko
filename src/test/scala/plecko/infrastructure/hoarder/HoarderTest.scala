@@ -22,7 +22,7 @@ class HoarderTest extends TestKit(ActorSystem()) with WordSpecLike with BeforeAn
   val content = "Some content"
 
   "A Hoarder " must {
-    "sen" in {
+    "orchestate the retrieval and parsing of RSS items" in {
 
       val repository = TestProbe("repository")
       val retrieverActor = TestProbe("retriever")
