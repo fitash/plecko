@@ -2,6 +2,7 @@ package plecko.infrastructure.hoarder
 
 import akka.actor.SupervisorStrategy.Restart
 import akka.actor.{Actor, ActorLogging, ActorPath, ActorRef, OneForOneStrategy, PoisonPill, Props}
+import plecko.infrastructure.parsers.rss.RSSParser
 import plecko.infrastructure.{FeedDefinition, Stop}
 
 import scala.concurrent.duration.Duration
@@ -14,7 +15,7 @@ object HoarderMaster {
 class HoarderMaster(private val feeds: Seq[FeedDefinition], itemRepository: ActorRef) extends Actor with ActorLogging {
   log.info("initializing")
   private val feedDefintionTable = feeds
-    .map(feed => (context.actorOf(Hoarder.props(feed, itemRepository), feed.name)))
+    .map(feed => (context.actorOf(Hoarder.props(feed, new RSSParser, itemRepository), feed.name)))
     .groupBy(_.path)
     .map({ case (path, actors) => (path, actors.head) })
 
