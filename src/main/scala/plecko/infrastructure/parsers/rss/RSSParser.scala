@@ -21,9 +21,9 @@ class RSSParser extends Parser {
   }
 
   def toItem(itemNode: Node): Item = {
-    val url = (itemNode \ "url").text
+    val link = (itemNode \ "link").text
     val title = (itemNode \ "title").text
     val content = (itemNode \ "description").text
-    Item(url, title, content)
+    Item(link, title, content)
   }
 }

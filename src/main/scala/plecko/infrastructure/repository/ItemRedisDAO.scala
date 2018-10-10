@@ -22,7 +22,7 @@ class ItemRedisDAO(implicit val jedisPool: JedisPool) {
 
   def save(item: Item): Unit = {
     withJedis { jedis => {
-      jedis.hmset(item.url, toMap(item))
+      jedis.hmset(item.link, toMap(item))
     }
     }
   }
@@ -36,7 +36,7 @@ class ItemRedisDAO(implicit val jedisPool: JedisPool) {
   }
 
   private def toMap(item: Item): java.util.Map[String, String] = {
-    mapAsJavaMap(mutable.Map[String, String]("url" -> item.url, "title" -> item.title, "content" -> item.content))
+    mapAsJavaMap(mutable.Map[String, String]("url" -> item.link, "title" -> item.title, "content" -> item.content))
   }
 
   private def toItem(properties: util.Map[String, String]): Item = {
