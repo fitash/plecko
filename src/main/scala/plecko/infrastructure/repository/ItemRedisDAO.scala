@@ -4,12 +4,11 @@ import java.util
 
 import plecko.domain.rss.Item
 import plecko.infrastructure.repository.JedisConnection.withJedis
-import redis.clients.jedis.JedisPool
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable
 
-class ItemRedisDAO(implicit val jedisPool: JedisPool) {
+class ItemRedisDAO(implicit val jedisConnection: JedisConnection) {
   def delete(uri: String): Any = withJedis {
     jedis => {
       jedis.hgetAll(uri).forEach(

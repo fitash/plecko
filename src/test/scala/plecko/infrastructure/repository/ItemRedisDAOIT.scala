@@ -7,10 +7,11 @@ import plecko.infrastructure.repository.JedisConnection.withJedis
 import redis.clients.jedis.JedisPool
 import redis.embedded.RedisServer
 
+
 class ItemRedisDAOIT extends FlatSpec with Matchers with BeforeAndAfterAll {
   private val port = 6636
   val redis = new RedisServer(port)
-  implicit val jedis = new JedisPool("localhost", port)
+  implicit val jedis = JedisConnection(new JedisPool("localhost", port),3)
   val dao: ItemRedisDAO = new ItemRedisDAO
 
   override def beforeAll = {

@@ -26,6 +26,7 @@ class ItemRepository extends Actor with ActorLogging {
     }
   }
 
- def itemPublisher(): ActorRef ={
-    context.actorOf(FromConfig.props(ItemPublisher.props()), ItemPublisher.NAME)  }
+  def itemPublisher(): ActorRef = {
+    context.actorOf(FromConfig.props(ItemPublisher.props()), ItemPublisher.NAME)
+  }
 }
