@@ -7,9 +7,13 @@ import redis.clients.jedis.JedisPool
 
 object PleckoStoreApp extends App {
   val config = ConfigFactory.load("store/application.conf")
-  config.entrySet().forEach(println(_))
-  implicit val actorSystem = ActorSystem("pleckostore")
+  implicit val actorSystem = ActorSystem("pleckostore",config)
   implicit val jedis: JedisConnection = jedisPool()
+
+
+  startActors()
+
+  def startActors() = ???
 
   def jedisPool(): JedisConnection = {
 
