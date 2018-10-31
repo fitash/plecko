@@ -3,7 +3,8 @@ package plecko.infrastructure.repository
 
 import org.scalatest.{BeforeAndAfter, BeforeAndAfterAll, FlatSpec, Matchers}
 import plecko.domain.rss.Item
-import plecko.infrastructure.repository.JedisConnection.withJedis
+import plecko.infrastructure.store.JedisConnection.withJedis
+import plecko.infrastructure.store.{ItemRedisDAO, JedisConnection}
 import redis.clients.jedis.JedisPool
 import redis.embedded.RedisServer
 

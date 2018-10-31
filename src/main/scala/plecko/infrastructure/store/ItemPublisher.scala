@@ -1,9 +1,9 @@
-package plecko.infrastructure.repository
+package plecko.infrastructure.store
 
 import akka.actor.{Actor, ActorLogging, Props}
+import plecko.PleckoStoreApp.jedis
 import plecko.domain.rss.Item
-import plecko.infrastructure.repository.ItemPublisher.PublishItem
-import plecko.PleckoApp.jedis
+import plecko.infrastructure.store.ItemPublisher.PublishItem
 
 object ItemPublisher {
   val NAME = "item-publisher"

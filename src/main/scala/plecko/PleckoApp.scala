@@ -1,27 +1,33 @@
 package plecko
 
-import akka.actor.ActorSystem
+
+import akka.actor.{ActorRef, ActorSelection, ActorSystem, Address, RootActorPath}
 import akka.stream.ActorMaterializer
+import com.typesafe.config.ConfigFactory
 import plecko.infrastructure.FeedDefinition
 import plecko.infrastructure.hoarder.HoarderMaster
-import plecko.infrastructure.repository.{ItemRepository, JedisConnection}
-import redis.clients.jedis.JedisPool
+import plecko.infrastructure.repository.ItemRepository
 
 import scala.collection.JavaConverters._
+import scala.concurrent.duration.{FiniteDuration, _}
+import scala.util.{Failure, Success}
 
 
 object PleckoApp extends App {
-  implicit val actorSystem = ActorSystem("Plecko")
+  val config = ConfigFactory.load()
+  implicit val actorSystem = ActorSystem("plecko")
   implicit val materializer = ActorMaterializer()
-  implicit val jedis:JedisConnection = jedisPool()
+  implicit val resolveTimeout: FiniteDuration = 10 seconds
+
   startActors();
 
+  def resolveStore() = {
+    val hostname: String = actorSystem.settings.config.getString("plecko.store.hostname")
+    val port: Int = actorSystem.settings.config.getInt("plecko.store.port")
+    val storeAddress: Address = Address("akka.tcp", "plecko-store", hostname, port)
+    val selection: ActorSelection = actorSystem.actorSelection(RootActorPath(storeAddress) / "user" / "store")
 
-  def jedisPool(): JedisConnection = {
-    val port = actorSystem.settings.config.getInt("plecko.redis.port")
-    val host = actorSystem.settings.config.getString("plecko.redis.host")
-    val database = actorSystem.settings.config.getInt("plecko.redis.database")
-    new JedisConnection(new JedisPool(host, port), database)
+    selection.resolveOne(resolveTimeout)
   }
 
   def readFeeds() = {
@@ -29,7 +35,19 @@ object PleckoApp extends App {
   }
 
   def startActors(): Unit = {
-    val itemRepository = actorSystem.actorOf(ItemRepository.props(), ItemRepository.NAME)
+    resolveStore().onComplete({
+      case Success(store) => {
+        initHoarders(store)
+      }
+      case Failure(e) => {
+        e.printStackTrace()
+        actorSystem.terminate();
+      }
+    })(actorSystem.dispatcher)
+  }
+
+  private def initHoarders(store: ActorRef) = {
+    val itemRepository = actorSystem.actorOf(ItemRepository.props(store), ItemRepository.NAME)
     actorSystem.actorOf(HoarderMaster.props(readFeeds(), itemRepository), HoarderMaster.NAME)
   }
 }

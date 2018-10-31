@@ -1,4 +1,4 @@
-package plecko.infrastructure.repository
+package plecko.infrastructure.store
 
 import redis.clients.jedis.{Jedis, JedisPool}
 

@@ -1,9 +1,9 @@
-package plecko.infrastructure.repository
+package plecko.infrastructure.store
 
 import java.util
 
 import plecko.domain.rss.Item
-import plecko.infrastructure.repository.JedisConnection.withJedis
+import plecko.infrastructure.store.JedisConnection.withJedis
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable
