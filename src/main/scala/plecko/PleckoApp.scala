@@ -24,8 +24,13 @@ object PleckoApp extends App {
   def resolveStore() = {
     val hostname: String = actorSystem.settings.config.getString("plecko.store.hostname")
     val port: Int = actorSystem.settings.config.getInt("plecko.store.port")
-    val storeAddress: Address = Address("akka.tcp", "plecko-store", hostname, port)
-    val selection: ActorSelection = actorSystem.actorSelection(RootActorPath(storeAddress) / "user" / "store")
+    val storeAddress: Address = Address("akka.tcp", "pleckostore","localhost", 2551)
+    println(RootActorPath(storeAddress))
+
+    //val selection: ActorSelection = actorSystem.actorSelection(RootActorPath(storeAddress))
+    val selection: ActorSelection = actorSystem.actorSelection("akka://pleckostore@127.0.0.1:2551/user/store")
+      // / "user" / "store")
+    println(selection)
 
     selection.resolveOne(resolveTimeout)
   }

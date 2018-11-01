@@ -2,7 +2,7 @@ package plecko
 
 import akka.actor.ActorSystem
 import com.typesafe.config.ConfigFactory
-import plecko.infrastructure.store.JedisConnection
+import plecko.infrastructure.store.{JedisConnection, Store}
 import redis.clients.jedis.JedisPool
 
 object PleckoStoreApp extends App {
@@ -10,10 +10,11 @@ object PleckoStoreApp extends App {
   implicit val actorSystem = ActorSystem("pleckostore",config)
   implicit val jedis: JedisConnection = jedisPool()
 
-
   startActors()
 
-  def startActors() = ???
+  def startActors() = {
+    actorSystem.actorOf(Store.props(), Store.NAME)
+  }
 
   def jedisPool(): JedisConnection = {
 
