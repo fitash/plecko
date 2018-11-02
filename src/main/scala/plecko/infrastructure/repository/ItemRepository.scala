@@ -3,6 +3,7 @@ package plecko.infrastructure.repository
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
 import plecko.domain.rss.Item
 import plecko.infrastructure.store.ItemPublisher.PublishItem
+import plecko.infrastructure.store.Store.StoreItem
 
 object ItemRepository {
   val NAME = "item-repository"
@@ -16,7 +17,7 @@ class ItemRepository(store: ActorRef) extends Actor with ActorLogging {
 
   override def receive: Receive = {
     case item: Item => {
-      store.forward(PublishItem(item))
+      store.forward(StoreItem(item))
     }
     case x: Any => {
       log.info("received unexpected message" + x)

@@ -28,7 +28,7 @@ object PleckoApp extends App {
     println(RootActorPath(storeAddress))
 
     //val selection: ActorSelection = actorSystem.actorSelection(RootActorPath(storeAddress))
-    val selection: ActorSelection = actorSystem.actorSelection("akka://pleckostore@127.0.0.1:2551/user/store")
+    val selection: ActorSelection = actorSystem.actorSelection("akka.tcp://pleckostore@127.0.0.1:2551/user/store")
       // / "user" / "store")
     println(selection)
 

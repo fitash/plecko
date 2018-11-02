@@ -18,6 +18,7 @@ class Store extends Actor with ActorLogging {
   private val publisher = itemPublisher();
   log.info("Alive and kicking at "+self.path)
   override def receive: Receive = {
+
     case StoreItem(item) => {
       publisher.forward(PublishItem(item))
     }

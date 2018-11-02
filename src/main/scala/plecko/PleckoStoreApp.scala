@@ -12,6 +12,8 @@ object PleckoStoreApp extends App {
 
   startActors()
 
+
+
   def startActors() = {
     actorSystem.actorOf(Store.props(), Store.NAME)
   }
