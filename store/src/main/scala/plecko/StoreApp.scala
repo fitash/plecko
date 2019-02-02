@@ -5,13 +5,12 @@ import com.typesafe.config.ConfigFactory
 import plecko.infrastructure.store.{JedisConnection, Store}
 import redis.clients.jedis.JedisPool
 
-object PleckoStoreApp extends App {
+object StoreApp extends App {
   val config = ConfigFactory.load("store/application.conf")
   implicit val actorSystem = ActorSystem("pleckostore",config)
   implicit val jedis: JedisConnection = jedisPool()
 
   startActors()
-
 
 
   def startActors() = {
