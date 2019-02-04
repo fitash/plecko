@@ -1,7 +1,7 @@
 package plecko.infrastructure.store
 
 import akka.actor.{Actor, ActorLogging, Props}
-import plecko.PleckoStoreApp.jedis
+import plecko.StoreApp.jedis
 import plecko.domain.rss.Item
 import plecko.infrastructure.store.ItemPublisher.PublishItem
 

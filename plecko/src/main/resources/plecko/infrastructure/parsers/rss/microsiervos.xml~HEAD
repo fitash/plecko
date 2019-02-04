@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Microsiervos</title>
+      <link>http://www.microsiervos.com/</link>
+      <description>Weblog acerca de ciencia, tecnología, internet y mucho más</description>
+      <language>es</language>
+      <copyright>Copyright 2017</copyright>
+      <lastBuildDate>Sat, 09 Dec 2017 11:36:34 +0100</lastBuildDate>
+      <generator>http://www.sixapart.com/movabletype/?v=5.2.13</generator>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs> 
+      <atom:link href="http://www.microsiervos.com/index.xml" rel="self" type="application/rss+xml" />
+      
+      <item>
+      <title>Algunas aseguradoras ya hacen descuentos a los conductores de Teslas por conducir en automático</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://qz.com/1150513/insurers-are-giving-tesla-owners-discounts-for-turning-on-autopilot/"><img src="http://img.microsiervos.com/images2017/tesla_car.jpg" width="100%" alt="Tesla car" title="Tesla car" /></a></p>
+
+<p>Así es como se hace camino: <a href="https://qz.com/1150513/insurers-are-giving-tesla-owners-discounts-for-turning-on-autopilot/"><strong>Insurers are rewarding Tesla owners for using Autopilot</strong></a> (en <em>Quartz)</em> explica cómo Direct Line, una aseguradora británica, está comenzando a hacer descuento a los conductores que conducen con el «piloto automático» en sus coches <a href="https://www.tesla.com/es_ES/">Tesla</a>.</p>
+
+<p>El descuento es sólo del <strong>5% y a modo de prueba</strong> para <a href="http://www.microsiervos.com/archivo/coches/acabara-conduccion-autonoma-seguros-coche.html">confirmar la hipótesis</a> de que los coches autónomos <a href="http://www.microsiervos.com/archivo/coches/coches-autonomos-no-perfectos-salvar-vidas.html">son más seguros</a>. Hace meses una compañía estadounidense, Root, comenzó a hacer lo mismo.</p>
+
+<p>Como es bien sabido en realidad los coches no conducen «100% de forma autónoma» porque <strong>legalmente es obligatorio que haya un conductor al volante y además esté atento.</strong> Los Tesla por ejemplo no pueden cambiar de carril a menos que se lo indique el conductor. Eso no impide que algunos cafres <a href="https://twitter.com/Scobleizer/status/939189624374575104">pongan el piloto automático mientras van echándose una siesta</a>, el tipo de situaciones que uno puede esperarse debido a «vivir en el futuro».</p>
+
+<p>De aquí a que esté prohibido conducir (por seguridad) o surjan las quejas por la escasez de órganos para transplantes… sólo hay un paso, aunque sea un tanto «distópico».</p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="http://www.microsiervos.com/archivo/coches/acabara-conduccion-autonoma-seguros-coche.html">¿Acabará la conducción autónoma con los seguros de coche?</a></li>
+<li><a href="http://www.microsiervos.com/archivo/coches/elon-musk-futuro-prohibido-conducir.html">Elon Musk de Tesla: «en el futuro estará prohibido conducir»</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/coches/aseguradoras-descuentos-tesla.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/coches/aseguradoras-descuentos-tesla.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/coches/aseguradoras-descuentos-tesla.html</guid>
+         <category>Coches</category>
+         <pubDate>Sat, 09 Dec 2017 11:36:34 +0100</pubDate>
+         <!-- ItemID 147895 -->
+      </item>
+      
+      <item>
+      <title>Criptoactivos: una guía para principiantes que arroja algo de luz sobre la nueva economía digital</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://medium.com/@linda.xie/beginners-guide-series-on-cryptoassets-d897535d887"><img src="http://img.microsiervos.com/images2017/Criptoactivos.jpg" width="80%" alt="Criptoactivos" title="Criptoactivos" /></a></p>
+
+<p>Los <strong>criptoactivos</strong> <em>(cryptoassets)</em> son la forma en que se denomina al conjunto de las criptodivisas y otras formas de bienes y servicios que utilizan la criptografía (y por extensión la <a href="http://www.microsiervos.com/archivo/economia/ecosistema-blockchain.html">tecnología blockchain</a>) para funcionar. Los más conocidos son las <a href="https://es.wikipedia.org/wiki/Criptomoneda">criptomonedas o criptodivisas</a>, pero hay otros como contratos inteligentes, <em>tokens</em> o sistemas de gobernanza que entran en dicha categoría.<br />
+ <br />
+<a href="https://medium.com/@linda.xie">Linda Xie</a> de <a href="https://0xproject.com/">0x Project</a> está preparando semana a semana una guía comparando cada uno de los criptoactivos más relevantes con el Bitcoin, dado que es el más conocido de los criptoactivos y el más fácil de entender («dinero digital»). En su <a href="https://medium.com/@linda.xie/beginners-guide-series-on-cryptoassets-d897535d887"><strong>Beginner’s guide series on cryptoassets<br />
+</strong></a> se explican <a href="https://blog.coinbase.com/a-beginners-guide-to-ethereum-46dd486ceecf">Ethereum</a> («contratos inteligentes»), <a href="https://medium.com/@linda.xie/a-beginners-guide-to-monero-7a5df2c50ed9">Monero</a> («dinero imposible de rastrear») y <a href="https://blog.coinbase.com/a-beginners-guide-to-litecoin-d9b455d44cd3">Litecoin</a> («Bitcoin más rápido»), entre otros.</p>
+
+<p>Entre los más interesantes están <a href="https://blog.coinbase.com/a-beginners-guide-to-ethereum-tokens-fbd5611fe30b">Ethereum Tokens</a> («activos digitales sobre la base de Ethereum»), <a href="https://medium.com/@linda.xie/a-beginners-guide-to-bitcoin-cash-34b003f357c8">Bitcoin Cash</a> («un fork/bifurcación de Bitcoin») o <a href="https://medium.com/@linda.xie/a-beginners-guide-to-zcash-3b37190affc">Zcash</a> («dinero digital completamente privado»). </p>
+
+<p>De cada uno de los criptoactivos hay no solo una larga y perfectamente inteligible explicación, sino también sus correspondientes enlaces a las webs principales, FAQs, artículos interesantes y otros recursos.</p>
+
+<p align="center">§</p>
+
+<p>Para no perderse en este frondoso bosque en <a href="https://techcrunch.com/2017/11/19/100-cryptocurrencies-described-in-4-words-or-less/"><strong>100 cryptocurrencies described in four words or less</strong></a> (<em>TechCrunch</em>) están resumidas en cuatro palabras las diferencias entre <strong>las 100 criptomonedas más conocidas.</strong></p>
+
+<p class="imagen" align="center"><a href="https://techcrunch.com/2017/11/19/100-cryptocurrencies-described-in-4-words-or-less/"><img src="http://img.microsiervos.com/images2017/100-Cryptocurrencies.jpg" width="80%" alt="100 Cryptocurrencies" title="100 Cryptocurrencies" /></a></p>
+
+<p><strong>Hay algunas con descripciones tan peculiares</strong> como «Mercado de predicciones descentralizado», «El Airbnb de la electricidad» y por supuesto el «Clon de bitcoin en forma de meme serio», el legendario <a href="http://dogecoin.com/">Dogecoin</a>.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/economia/guia-principiantes-criptoactivos.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/economia/guia-principiantes-criptoactivos.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/economia/guia-principiantes-criptoactivos.html</guid>
+         <category>Economía</category>
+         <pubDate>Sat, 09 Dec 2017 09:54:10 +0100</pubDate>
+         <!-- ItemID 147893 -->
+      </item>
+      
+      <item>
+      <title>Rocket Lab está lista para la primera misión real de su cohete Electron</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen"><a href="https://twitter.com/RocketLab/status/936402564953751552"><img src="http://img.microsiervos.com/images2017/RocketLabMahia.jpg" width="100%" alt="Mahia" title="Mahia" /></a></p>
+
+<p class="imagen"><a href="https://twitter.com/RocketLab/status/936710334710034432"><img src="http://img.microsiervos.com/images2017/RocketLabStillTesting.jpg" width="100%" alt="El Still Testing" title="El Still Testing" /></a></p>
+
+<p>Todo está listo en el complejo de lanzamiento que Rocket Lab tiene en la península neozelandesa de Mahia para el despegue de su primer cohete Electron <strong>con carga útil</strong>.</p>
+
+<p>El <a href="http://www.rocketlabusa.com/electron/"><strong>Electron</strong></a> es un cohete construido íntegramente en materiales compuestos (fibra de carbono) y con un motor impreso en 3D que utiliza <a href="https://en.wikipedia.org/wiki/Electric_pump-fed_engine">bombas eléctricas</a> para mover el combustible en lugar de las turbobombas a gas de los cohetes más grandes. Con una longitud de 17 metros y un diámetro de 1,2 está pensado para lanzar cargas de entre 150 y 225 kilos a una <a href="https://es.wikipedia.org/wiki/Órbita_sincrónica_al_sol">órbita sincrónica al sol</a> de 500 kilómetros.</p>
+
+<p>Su primer vuelo terminó antes de tiempo al <a href="http://www.microsiervos.com/archivo/espacio/identificada-causa-fallo-primer-lanzamiento-cohete-electron.html">perderse la telemetría del cohete</a> por un error en la configuración de los equipos de tierra. Pero el funcionamiento del <i>It's A Test</i>, que es como fue bautizado, fue <strong>impecable</strong>.</p>
+
+<p>Así que para el segundo lanzamiento en lugar de volar vacío el <i>Still Testing</i> despegará <a href="http://www.rocketlabusa.com/news/updates/rocket-lab-to-fly-planet-and-spire-satellites-on-second-test-flight/"><strong>con tres CubeSat a bordo</strong></a>, un <a href="http://www.microsiervos.com/archivo/arte-y-diseno/dove-de-planet-labs-arte-efimero-en-el-espacio.html">Dove</a> de Planet Labs y dos <a href="http://space.skyrocket.de/doc_sdat/lemur-2.htm">Lemur-2</a> de Spire.</p>
+
+<p class="imagen"><a href="https://twitter.com/RocketLab/status/935923479794159617"><img src="http://img.microsiervos.com/images2017/RocketabStillTestingTransporte.jpg" width="100%" alt="En el transportador" title="En el transportador" /></a></p>
+
+<p>Si la meteorología lo permite, el lanzamiento será el <strong>lunes 11 de diciembre de 2017</strong> a partir de las 2:30 de la noche, hora peninsular española, que son las 14:30 locales en Nueva Zelanda. Habrá streaming <a href="http://www.rocketlabusa.com">en la web de la empresa</a>.</p>
+
+<p>Rocket Lab tiene programado un tercer lanzamiento de prueba cuya fecha se verá determinada en cierto modo por el resultado del lanzamiento del <i>Still Testing</i>, pero su idea es ofrecer hasta 120 lanzamientos al año por un precio inferior a los <strong>cinco millones</strong> de dólares, un precio extremadamente competitivo.</p>
+
+<p>La empresa está en Twitter como <a href="https://twitter.com/RocketLab">@RocketLab</a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/rocket-lab-lista-primera-mision-real-cohete-electron.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/rocket-lab-lista-primera-mision-real-cohete-electron.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/rocket-lab-lista-primera-mision-real-cohete-electron.html</guid>
+         <category>Espacio</category>
+         <pubDate>Fri, 08 Dec 2017 14:06:18 +0100</pubDate>
+         <!-- ItemID 147891 -->
+      </item>
+      
+      <item>
+      <title>Un resumen en cinco minutos de la misión Vita de Paolo Nespoli de la ESA</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/MWXdR46ZEQk?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p>En pocos días termina la <strong>tercera</strong> misión de Paolo Nespoli, uno de los astronautas de la Agencia Espacial Europea, bautizada como <a href="http://www.esa.int/Our_Activities/Human_Spaceflight/International_Space_Station/VITA_mission_Paolo_Nespoli"><strong>VITA</strong></a>, de vitalidad, innovación, tecnología y habilidad (que en inglés no lleva hache); además en italiano significa vida, en referencia a los experimentos científicos y las tecnologías necesarias para la vida en el espacio.</p>
+
+<p>Después de atracar en la Estación Espacial Internacional el 28 de julio de 2017 el primer objetivo de Paolo fue <strong>ponerse al día</strong> con las cosas que han cambiado den la EEI desde su última visita en 2011, aunque por supuesto ya se había entrenado en tierra para que nada le pillara por sorpresa.</p>
+
+<p>Luego, parte de trabajo diario en la Estación estuvo dedicado a tareas de <strong>mantenimiento</strong>, igual que en el caso de todos sus compañeros, lo que incluye gestionar los vehículos de suministros que llegan a ella como por ejemplo la <a href="http://www.microsiervos.com/archivo/espacio/fin-mision-capsula-carga-dragon-12.html">Dragon 12</a> o la <a href="http://www.microsiervos.com/archivo/espacio/capsula-carga-cygnus-oa-8-abandona-eei.html">Cygnus OA-8</a>.</p>
+
+<p>Pero también se reservó una importante porción de su tiempo para <strong>experimentos</strong> para numerosas instituciones y para probar nuevas tecnologías a bordo de la EEI.</p>
+
+<p>Y el Propio Paolo, igual que sus compañeros, hace de <strong>conejillo de indias</strong> a la hora de estudiar en su propio cuerpo los efectos de estar en caída libre, lo que hace que su columna vertebral se haya estirado, con lo que es aún más alto de lo que lo es normalmente –ronda los 2 metros de altura– pero también hace que sus músculos y huesos se hayan vuelto más débiles aún a pesar de que hacen ejercicio a diario para contrarrestar esto. Estudiar los efectos de la microgravedad en los astronautas no sólo sirve para aprender de cara al futuro de la exploración espacial sino que también ayuda a investigar condiciones como la osteoporosis.</p>
+
+<p class="imagen"><a href="https://twitter.com/astro_paolo/status/938812704596348928"><img src="http://img.microsiervos.com/images2017/SoyuzMS05PreparativosVuelta.jpg" width="100%" alt="Probando trajes y nave para la vuelta" title="Probando trajes y nave para la vuelta" /></a><br><cite>Prueba de trajes en la <a href="https://es.wikipedia.org/wiki/Soyuz_MS-05">Soyuz MS-05</a> en preparación de su vuelta a tierra. Sí, van como sardinas en lata – vía el propio Paolo</cite></p>
+
+<p>Tras casi un año acumulado en órbita en sus tres misiones Paolo está a punto de volver a tierra con Sergey Ryazanskiy y Randy Bresnik, lo que está previsto para el <strong>14 de diciembre</strong>. Y una vez en tierra seguirá sirviendo de conejillo de indias para ver cómo se recupera su cuerpo de esta nueva misión.</p>
+
+<p>Paolo está en Twitter como <a href="https://twitter.com/Astro_Paolo">@Astro_Paolo</a>.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/resumen-cinco-minutos-mision-vita-paolo-nespoli-esa.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/resumen-cinco-minutos-mision-vita-paolo-nespoli-esa.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/resumen-cinco-minutos-mision-vita-paolo-nespoli-esa.html</guid>
+         <category>Espacio</category>
+         <pubDate>Fri, 08 Dec 2017 12:20:52 +0100</pubDate>
+         <!-- ItemID 147890 -->
+      </item>
+      
+      <item>
+      <title>Todas las sondas espaciales y sus trayectorias por el Sistema Solar en una sola imagen</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://superposition.cc"><img src="http://img.microsiervos.com/images2017/Ephemeris.jpg" width="80%" alt="Ephemeris" title="Ephemeris" /></a></p>
+
+<p><a href="https://superposition.cc"><strong>Ephemeris</strong></a> es un pequeño y precioso proyecto cuyo objetivo era representar en una sola imagen la posición real y la trayectoria de todas las sondas espaciales que hemos lanzado desde el planeta Tierra en 1962, cuando despegó la Mariner 2. Los datos provienen de la base de datos de <a href="https://ssd.jpl.nasa.gov/?ephemerides#spacecraft">Efemérides de las sondas espaciales</a> que guardan los archivos de la NASA, calculados para un momento concreto igual que se calcula la <a href="http://www.microsiervos.com/archivo/espacio/como-navegan-sondas-espacio.html">posición y trayectoria</a> de las sondas en sus viajes por el espacio.</p>
+
+<p class="imagen" align="center"><a href="https://superposition.cc"><img src="http://img.microsiervos.com/images2017/Ephemeris2.jpg" width="100%" alt="Ephemeris" title="Ephemeris" /></a></p>
+
+<p class="frase">Es una representación de nuestro progreso como especie, un recordatorio de lo que podemos llegar a conseguir si dejamos libertad a nuestros «niños interiores», a nuestra curiosidad sin límites por explorar y descubrir.</p>
+
+<p>El resultado es <strong>una sola imagen a modo de instantánea</strong> de todas esas sondas, impresa como en póster, calculada el 4 de agosto de 2017 a las 10:21 desde un lugar cercano al parque Arnhems Buiten de Arnhem, en los Países bajos.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/arte-y-diseno/todas-las-sondas-espaciales-en-una-imagen.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/arte-y-diseno/todas-las-sondas-espaciales-en-una-imagen.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/arte-y-diseno/todas-las-sondas-espaciales-en-una-imagen.html</guid>
+         <category>Arte y Diseño</category>
+         <pubDate>Fri, 08 Dec 2017 10:45:36 +0100</pubDate>
+         <!-- ItemID 147889 -->
+      </item>
+      
+      <item>
+      <title>Vortex NYC, un vídeo de geometrías y giros que parecen imposibles</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe src="https://player.vimeo.com/video/245597164?color=ffffff&portrait=0" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+<p>Este trabajo de <a href="https://vimeo.com/timsessler">Tim Sessler</a> tiene unas espectaculares imágenes de Nueva York con ángulos que parecen imposibles. Además del mérito artístico lo interesante es que está completamente <strong>grabado con la cámara de un iPhone 8</strong> utilizando la app <a href="http://www.filmicpro.com/">FilmicPro</a>.</p>
+
+<p>Otro de los secretos que encierra es que también se utilizó un <a href="http://freeflysystems.com/movi-pro">estabilizador Freefly MoVI</a> una especie de cardán de gama alta que probablemente cuesta bastante más que el propio iPhone – lo cual permite apreciar la importancia de una buena estabilización y movimiento.</p>
+
+<p>Otro detalle genial  que no se ve –casi dentro de la categoría «bricomanía fílmica»– es que el movimiento principal se consiguió <strong>con un Segway y una silla de ruedas eléctrica</strong> según las escenas.</p>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/peliculas-tv/vortex-nyc.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/peliculas-tv/vortex-nyc.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/peliculas-tv/vortex-nyc.html</guid>
+         <category>Películas / TV</category>
+         <pubDate>Fri, 08 Dec 2017 09:31:05 +0100</pubDate>
+         <!-- ItemID 147888 -->
+      </item>
+      
+      <item>
+      <title>Una explicación sencilla de cómo navegan las sondas por el espacio</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="video-container" align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/YAnxt1YPWbk?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p><strong>Es todo cuestión de mecánica celeste.</strong> Todo comienza con aplicar las tres leyes del movimiento de Newton y luego con un buen <strong>sistema de orientación a partir de la imagen de las estrellas</strong>, una especie de versión de alta tecnología de los antiguos sextantes que usaban los marinos.</p>
+
+<p>Tal y como se explica en el muy didáctico vídeo de <a href="https://www.youtube.com/channel/UC726J5A0LLFRxQ0SZqr2mYQ">Curious Droid</a>, las <a href="https://es.wikipedia.org/wiki/Leyes_de_Newton">tres leyes del movimiento de Newton</a> son más que suficientes para una navegación muy precisa. La primera dice que un objeto que se mueve en línea recta –como por ejemplo una sonda lanzada al espacio– <strong>se moverá de manera uniforme en línea recta a no ser que actúe otra fuerza sobre él</strong>. En este caso esa otra fuerza (o fuerzas) sería la atracción gravitatoria, tanto de los planetas como del propio Sol o incluso de los cometas que pasen cerca.</p>
+
+<p>La segunda de las leyes dice que la aceleración de un objeto es directamente proporcional a la fuerza que actúa sobre él, lo cual conociendo las masas de los planetas y de la propia sonda <strong>permite utilizar su atracción gravitatoria a modo de «tirachinas»</strong> para atraerlas primero y lanzarlas en trayectorias muy bien calculadas, gran ejemplo de lo cual son las misiones Voyager, que aprovecharon el «tirón» de cuatro grandes planetas para «saltar» grácilmente de uno a otro. [Dato curioso: la Voyager 2 partió unas semanas antes que la Voyager 1 y ambas <a href="https://www.youtube.com/watch?v=l8TA7BU2Bvo">siguieron trayectorias similares</a>. Pero mientras la Voyager 1 fue lanzada a propósito fuera del plano del Sistema Solar la Voyager 2 continuó camino hasta Urano y Neptuno, saliendo luego también del plano de la eclíptica pero en sentido contrario.</p>
+
+<p>La última de las leyes de Newton es la de la acción y la reacción, y básicamente es <strong>la que permite que los propulsores funcionen</strong> también en el vacío, dando pequeños impulsos a las naves y sondas espaciales y acelerándolos hasta la velocidad deseada. Gracias a ello se pueden corregir las desviaciones de las trayectorias con relativo poco esfuerzo, una vez las naves están ya viajando hacia sus objetivos.</p>
+
+<p class="imagen" align="center"><img src="http://www.microsiervos.com/images2017/Pioneer_Voyager_trajectories.jpg" width="80%" alt="Pioneer Voyager trajectories" title="Pioneer Voyager trajectories" /></p>
+
+<p>Conociendo estas leyes ya se pueden usar las <a href="https://ssd.jpl.nasa.gov/?ephemerides">Tablas de  efemérides de los cuerpos del Sistema Solar</a>, una recopilación de la NASA que tiene décadas de antigüedad (por no decir siglos) y que se actualiza constantemente con las posiciones exactas de los planetas y cometas. Las más recientes y precisas los de la sonda Horizons, aunque hay innumerables colecciones de datos en los archivos. </p>
+
+<p>Calcular la trayectoria está bien, pero es necesario saber <strong>dónde está exactamente la sonda en el espacio</strong> para introducir ese valor en los cálculos. Para ese seguimiento no se pueden usar por desgracia <a href="http://www.microsiervos.com/archivo/ciencia/giroscopios.html">giróscopos</a> u otros métodos mecánicos: son demasiado imprecisos y colocarían a las naves muy lejos de los objetivos al llegar a su destino, incluso aunque fueran muy precisos (que lo son). No son pues prácticos aunque se utilicen a menudo en aviones, barcos u otro tipo de vehículos.</p>
+
+<p>La alternativa es <strong>usar cámaras a modo de sextantes.</strong> Estas cámaras pueden detectar la posición del Sol o de estrellas como Canopus –esto es lo que hacían sondas como las Voyager– pero también la débil luz de otras estrellas menores, de los planetas y hasta de los asteroides.</p>
+
+<p>Combinando esto con las efemérides y las <strong>señales que se pueden recibir y enviar hacia los radiotelescopios de la Tierra</strong> –que viajan a la velocidad de la luz– se puede saber al mismo tiempo dónde está una sonda, a qué velocidad se mueve y qué trayectoria seguirá en el futuro. Esto permite calcular si es necesario dar algún impulso con sus propulsores para modificar la trayectoria, algo que a veces ha de hacerse pese a la precisión de los cálculos por lo imprevisible de las pequeñas variaciones debidas al viento solar u <a href="http://www.microsiervos.com/archivo/ciencia/misterio-anomalias-sondas-pioneer.html">otros factores</a> difíciles <a href="http://www.microsiervos.com/archivo/ciencia/anomalia-pioneer.html">de anticipar</a>.</p>
+
+<p>Buena prueba del dominio de la navegación estelar que tenemos no fue solo el éxito de las misiones Voyager o el milimétrico aterrizaje del <a href="http://www.microsiervos.com/archivo/ciencia/rosetta-philae-listos-aterrizaje.html">módulo Philae de la Sonda Rosetta</a>, sino especialmente la precisa llegada de la <a href="http://www.microsiervos.com/archivo/ciencia/comienza-secuencia-sobrevuelo-pluton-new-horizons.html">New Horizons</a> a Plutón tras recorrer <strong>5.000 millones de kilómetros durante 9 años</strong> y donde sólo había una ventana de oportunidad de <strong>2 horas</strong> para tomar las fotos. </p>
+
+<p>Relacionado:</p>
+
+<ul>
+<li><a href="http://www.microsiervos.com/archivo/espacio/donde-sondas-voyager-40-anos-viajando-espacio.html">Por dónde andan  las sondas Voyager tras 40 años por el espacio</a></li>
+<li><a href="http://www.microsiervos.com/archivo/ciencia/todas-sondas-espaciales-activas-sistema-solar-en-un-sitio-web.html">Todas las sondas espaciales activas en un sitio web</a></li>
+<li><a href="http://www.microsiervos.com/archivo/espacio/propuesta-mantener-new-horizons-funcionamiento-despues-2021.html">Propuesta para mantener la  New Horizons más allá de 2021</a></li>
+<li><a href="http://www.microsiervos.com/archivo/espacio/adios-rosetta.html">Adiós, Rosetta – fin de la misión</a></li>
+<li><a href="http://www.microsiervos.com/archivo/ciencia/misterio-anomalias-sondas-pioneer.html">Resuelto el «misterio» científico de las anomalías de las Pioneer</a></li>
+</ul>
+]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/como-navegan-sondas-espacio.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/como-navegan-sondas-espacio.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/como-navegan-sondas-espacio.html</guid>
+         <category>Espacio</category>
+         <pubDate>Thu, 07 Dec 2017 20:14:52 +0100</pubDate>
+         <!-- ItemID 147887 -->
+      </item>
+      
+      <item>
+      <title>Así se instala la masiva compuerta de carga del Beluga XL</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/6w-dvros_rI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p>El primer <a href="http://www.microsiervos.com/archivo/aerotrastorno/historia-beluga-aviones-carga-airbus-transportar-aviones.html">Beluga XL</a>, el gigantesco avión de carga basado en el Airbus A330, está un poco más cerca de volar ahora que está <em>estructuralmente completo,</em> tras las instalación de la compuerta de carga —el momento que se recoge en el vídeo— una tarea que requiere fuerza bruta y precisión a partes iguales, para mover la compuerta y para colocarla en su sitio exacto sin <em>romper</em> nada por el camino.</p>
+
+<p>En el vídeo se echa en falta alguna explicación, como qué tamaño tiene y cuánto pesa esa compuerta. Pero por ahí tienen que pasar los fuselajes de los otros aviones de Airbus que el Beluga transporta “en cómodas porciones” desde diferentes lugares y hasta la planta de ensamblaje en Toulouse.</p>
+
+<p>El <a href="http://www.microsiervos.com/archivo/aerotrastorno/airbus-construir-nuevos-aviones-transporte.html">primer vuelo del Beluga XL</a> está previsto para 2019.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/aerotrastorno/instalacion-masiva-compuerta-carga-beluga-xl.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/aerotrastorno/instalacion-masiva-compuerta-carga-beluga-xl.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/aerotrastorno/instalacion-masiva-compuerta-carga-beluga-xl.html</guid>
+         <category>Aerotrastorno</category>
+         <pubDate>Thu, 07 Dec 2017 11:58:34 +0100</pubDate>
+         <!-- ItemID 147886 -->
+      </item>
+      
+      <item>
+      <title>Cómo desrenderizar escenas y animaciones 3D, una técnica relevante para el futuro</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="http://nsd.csail.mit.edu/"><img src="http://img.microsiervos.com/images2017/spotlight_nsd.jpg" width="80%" alt="Cómo desrenderizar escenas y animaciones 3D" title="Cómo desrenderizar escenas y animaciones 3D" /></a></p>
+
+<p>En el laboratorio de inteligencia artificial del MIT trabajan en algo llamado <a href="http://nsd.csail.mit.edu/"><strong>Neural Scene De-rendering</strong></a> («Desrenderizado de escenas mediante técnicas neuronales»). Básicamente consiste en <strong>obtener información de los objetos y lo que sucede en un fotograma 2D o una animación</strong> para lograr lo que llaman un <em>entendimiento holístico de la escena.</em> El resultado es, dicho de forma simple, un texto XML que describe los objetos, categorías, poses y posiciones que ocupan.</p>
+
+<p>Aunque esto sea algo trivial para los humanos <strong>para un sistema de reconocimiento visual no tiene nada de fácil.</strong> Normalmente las imágenes que se reciben están en 2D, aunque a veces puedan utilizarse dos o más cámaras o un LIDAR o similar para recrear un entorno 3D (por ejemplo en el caso de los coches autónomos). Mientras que nuestro cerebro tiene unos filtros estupendos para hacernos entender lo que no vemos y comprender más allá de lo aparente lo que está sucediendo, una inteligencia artificial no tiene en principio nada de eso.</p>
+
+<p>El sistema se llama así porque en el software se fuerza a <strong>realizar la operación inversa a la renderización habitual de las escenas 3D:</strong> una «desrenderización». Pero resulta que esa operación es computacionalmente muy compleja, de ahí que se utilicen redes neuronales para ello.</p>
+
+<p>En las pruebas han utilizado <a href="https://github.com/jiajunwu/nsd">mundos de Minecraft</a> y los paisajes y habitantes habituales de ese entorno (campesinos, cerdos, árboles…) y también <a href="http://vda.csail.mit.edu/">películas sencillas con dinámicas físicas</a> para intentar que el sistema sea capaz de <em>explicar</em> lo que sucede en el vídeo. Por lo que se ve en los ejemplos, aciertan bastante bien.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/ordenadores/desrenderizar-escenas-animaciones-3d.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/ordenadores/desrenderizar-escenas-animaciones-3d.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/ordenadores/desrenderizar-escenas-animaciones-3d.html</guid>
+         <category>Ordenadores</category>
+         <pubDate>Thu, 07 Dec 2017 10:20:31 +0100</pubDate>
+         <!-- ItemID 147884 -->
+      </item>
+      
+      <item>
+      <title>Un app para smart TV de Samsung que permite a los daltónicos adaptar los colores del televisor</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="imagen"><img src="http://www.microsiervos.com/images/app-samsung-seecolors.jpg" alt="App samsung seecolors" title="app-samsung-seecolors.jpg" border="0" width="100%" /></p>
+
+<p>Samsung ofrece para <a href="http://www.microsiervos.com/archivo/tecnologia/echamos-vistazo-televisores-qled-samsung.html">sus televisores QLED TV</a> la app SeeColors, que diagnostica diferentes tipos y grados de deficiencias en la percepción del color y que, según al resultado de la prueba, ajusta la configuración del color de la pantalla para que “los espectadores con daltonismo disfruten la experiencia de visualizar los colores con total precisión”, <a href="https://news.samsung.com/es/samsung-ofrece-la-app-seecolors-en-sus-qled-tv-para-que-las-personas-con-daltonismo-vean-el-mundo-a-todo-color">según la compañía</a>.</p>
+
+<blockquote>Con la aplicación SeeColors instalada en el televisor QLED los usuarios pueden identificar cuál es su tipo y nivel del daltonismo y en base a los resultados de su diagnóstico personal calibrar la pantalla del televisor QLED. Para desarrollar un método de diagnóstico que fuera a la vez fácil de utilizar y preciso en sus resultados Samsung Electronics ha trabajado junto con la profesora Klara Wenzel, con el fin de adaptar el procedimiento de diagnóstico C-Test (Colorlite Test) a televisores y dispositivos móviles. El método C-Test desarrollado por la profesora Wenzel es una prueba de diagnóstico digital que utiliza filtros de color y modelos matemáticos para diagnosticar los distintos niveles de daltonismo..</blockquote>
+
+<p class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/NweG4KhyN8E" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p>La prueba de diagnóstico es personal e individual, y se puede hacer también <a href="https://play.google.com/store/apps/details?id=com.samsung.android.seecolors&hl=es_419">a través de una app para móviles</a> Samsung y después transferir los ajustes de color al televisor.</p>
+
+<p>Eso sí, el ajuste sólo será válido para la persona para quien se haya calibrado el televisor. Esto significa que si ve la tele acompañado el resto de personas verán los colores <em>diferentes</em> en mayor o menor medida, según el grado de daltonismo para el que se haya ajustado la pantalla.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/daltonicos-viendo-algunos-colores-primera-vez.html">Daltónicos viendo algunos colores por primera vez</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/gadgets/gafas-solucionan-daltonismo.html">Unas gafas que corrigen los colores para algunos tipos de daltonismo</a>
+</li>
+<li>
+<a href="https://elpais.com/tecnologia/2017/02/22/actualidad/1487765942_466913.html">Las gafas que pueden ayudar a ver a personas con visión muy baja</a>
+</li>
+<li>
+<a href="http://www.rtve.es/noticias/20130926/aplicacion-telefono-movil-aspira-combatir-ceguera-mundo/745130.shtml">Una aplicación de teléfono móvil aspira a combatir la ceguera en el mundo</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/tecnologia/be-my-eyes-app-prestar-ojos-personas-ciegas.html">Con esta aplicación móvil puedes «prestar tus ojos» a personas ciegas</a>
+</li>
+</ul>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/tecnologia/app-smart-tv-samsung-daltonicos-ajustar-colores-televisor.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/tecnologia/app-smart-tv-samsung-daltonicos-ajustar-colores-televisor.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/tecnologia/app-smart-tv-samsung-daltonicos-ajustar-colores-televisor.html</guid>
+         <category>Tecnología</category>
+         <pubDate>Thu, 07 Dec 2017 10:17:30 +0100</pubDate>
+         <!-- ItemID 147885 -->
+      </item>
+      
+      <item>
+      <title>Una antigua máquina de cifrado de rotores, personal y portátil</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="http://www.sothebys.com/en/auctions/ecatalogue/2017/history-of-science-technology-n09686/lot.69.html"><img src="http://img.microsiervos.com/images2017/CD57.jpg?b" width="100%" alt="CD57" title="CD57" /></a></p>
+
+<p>En Shoteby’s han sacado a subasta esta <a href="http://www.sothebys.com/en/auctions/ecatalogue/2017/history-of-science-technology-n09686/lot.69.html"><strong>Hagelin CD-57</strong></a>, una antigua máquina de cifrado suiza que data de 1957 y utiliza rotores para el cifrado y descifrado de los mensajes secretos. Este tipo de máquinas era «lo más» en criptografía a mediados del siglo XX. El precio de esta preciosidad de museo es de unos 3.000 euros.</p>
+
+<p>En la CD-57 se configuraba una clave en uno de los grupos de rotores y al ir girando el otro iban surgiendo las equivalencias. El alfabeto era únicamente A‑Z, de modo que las palabras habían de separarse por el contexto y las cifras escribirse como números. En el <a href="http://www.cryptomuseum.com/">Crypto Museum</a> tienen una amplia explicación sobre <a href="http://www.cryptomuseum.com/crypto/hagelin/cd57/index.htm">el funcionamiento detallado de la CD-57</a> y sus variantes. <br />
+ <br />
+Aunque el modelo CD-57 era vulnerable a los ataques de los criptoanalistas más sagaces se podía reconvertir cambiando unas piezas en el modelo CD-57(RT), que era prácticamente invulnerable. El (RT) utilizaba un cifrado de <a href="https://es.wikipedia.org/wiki/Libreta_de_un_solo_uso">libreta de un solo uso</a>, una larga cinta de caracteres aleatorios que usaban tanto emisor como receptor para encriptar los mensajes. El único problema en ese método –que en ocasiones no era baladí– era generar los caracteres aleatorios con garantía y luego hacer llegar físicamente con seguridad la cinta del cifrado de un lugar a otro.  <br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/seguridad/maquina-cifrado-rotores-personal-portatil.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/seguridad/maquina-cifrado-rotores-personal-portatil.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/seguridad/maquina-cifrado-rotores-personal-portatil.html</guid>
+         <category>Seguridad</category>
+         <pubDate>Thu, 07 Dec 2017 10:00:14 +0100</pubDate>
+         <!-- ItemID 147883 -->
+      </item>
+      
+      <item>
+      <title>Cómo funcionaba originalmente el Technicolor y cómo cambió el cine</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/Mqaobr6w6_I" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p><em>How Technicolor changed movies,</em> explica (con subtítulos en inglés) cómo se desarrolló y cómo funcionaba originalmente la tecnología de Technicolor que hizo posible películas en color con <em>filmación directa</em> (sin colorear a mano los fotogramas) y colores más o menos realistas. Y hasta “colores espectaculares” teniendo en cuenta que hablamos de tecnología que empezó a desarrollarse hace más de un siglo, en 1914.</p>
+
+<p>El vídeo también desmonta la falsa creencia de que <em>El mago de Oz</em> fue la primera película en color o en Technicolor, y de paso revela cómo se hizo una de las escenas más famosas de aquella película (y que más impactó al público en su día): el momento de transición de los primeros minutos de metraje en monocolor, color sepia, a los colores vivos de Oz —el truco incluía filmar en color en una habitación pintada de color sepia y usar una doble de Judy Garland que iba vestida y maquillada con tonos sepias</p>
+
+<p>También merece la pena ver cómo era una cámara original de Technicolor, un trasto de 300 o 400 Kg que debía grabar a la vez en tres o cuatro cintas (rojo, verde, azul; después se añadió el K, <em>key,</em> para los negros), que luego había que unir en un proceso meticuloso, largo y complejo — y costoso.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/peliculas-tv/como-funcionaba-technicolor-como-cambio-cine.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/peliculas-tv/como-funcionaba-technicolor-como-cambio-cine.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/peliculas-tv/como-funcionaba-technicolor-como-cambio-cine.html</guid>
+         <category>Películas / TV</category>
+         <pubDate>Thu, 07 Dec 2017 09:40:05 +0100</pubDate>
+         <!-- ItemID 147882 -->
+      </item>
+      
+      <item>
+      <title>Los lugares más radiactivos del planeta en dosis equivalente a comer un plátano</title>
+<author>nachop@gmail.com (Nacho)</author>
+         <description><![CDATA[<p class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/TRL7o2kPqw0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></p>
+
+<p>En este <a href="">vídeo de Veritasium,</a> de hace algunos años, Derek Muller recorre —medidor de radiación en mano— algunos de los lugares conocidos en los que uno se expone a las mayores dosis de radiación ionizante. Entre los lugares evidentes: Chernóbil, Fukushima, Hiroshima, el lugar de Nuevo México donde se detonó la primera bomba atómica, o el despacho de Marie Curie.</p>
+
+<p>De hecho Derek también desciende a la mina en la que se descubrió el uranio y de la cual Marie Curie obtuvo las muestras de minerales de uranio<br />
+ con las que trabajó. Y después se va a visitar el laboratorio de Curie. Todavía hoy <em>tocar</em> el pomo de la puerta del antiguo despacho de Curie (durante una hora) equivale “radiactivamente” a <em>comerse quince plátanos.</em></p>
+
+<p>Porque para poner en perspectiva  qué cantidades de radiación se registran en esos lugares Derek utiliza la <a href="http://www.microsiervos.com/archivo/ciencia/dosis-radiacion-equivalente-platano.html">dosis equivalente a comerse un plátano.</a></p>
+
+<p>Los plátanos contienen de promedio un 0,0117 por ciento de potasio-40 (isótopo 40K), que es radiactivo por naturaleza. De modo que cada vez que te comes un plátano (judías, aguacate o nueces, o te fumas un cigarro, o vuelas en avión, o incluso <a href="http://www.microsiervos.com/archivo/curiosidades/radiacion-emitida-personas.html">cada vez que duermes con alguien</a>) te expones a una <em>microcantidad</em> de radiación.</p>
+
+<p>El premio gordo del <em>Tour Glows in the Dark</em> de Derek se lo lleva el hospital de Prípiat, la ciudad próxima a la central de Chernóbil, y hoy abandonada, en la cual vivían la mayor parte de sus trabajadores. Allí se acumulan las ropas y los trajes de trabajo que llevaban los bomberos en los días posteriores del desastre nuclear. Un montón de ropa que, más de 30 años después, sobrecargan el medidor de radiación de Derek. Y <a href="http://www.microsiervos.com/archivo/ecologia/radiacion-chernobil-ahora-mayor-calculado.html">la cosa allí va para largo</a>.</p>
+
+<p>Relacionado,</p>
+
+<ul>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/tipos-radiacion-nuclear-resumidos-10-minutos.html">Los diversos tipos de radiación nuclear resumidos en 10 minutos</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/sobrevivio-atravesado-por-un-haz-de-particulas.html">Sobrevivió después de ser atravesado por un haz de partículas</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/radiacion-cherenkov.html">La radiación de Cherenkov</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/por-que-quema-piel-cuando-expone-sol.html">¿Por qué y cómo se producen las quemaduras solares?</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/curiosidades/radiacion-emiten-minerales-uranio-visualizada-camara-niebla.html">La radiación que emiten algunos minerales de uranio visualizada en una cámara de niebla</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/arte-y-diseno/gatos-cambian-color-desafio-comunicarnos-humanos-10000-anos.html">Gatos que cambian de color si hay radiación o el desafío de comunicarnos con los humanos de dentro de 10.000 años</a>
+</li>
+<li>
+<a href="http://www.microsiervos.com/archivo/ciencia/cofre-acero-chernobil.html">Un cofre de acero para sellar (otra vez) Chernóbil</a>
+</li>
+</ul>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/ciencia/lugares-mas-radiactivos-planeta-dosis-equivalente-comer-platano.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/ciencia/lugares-mas-radiactivos-planeta-dosis-equivalente-comer-platano.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/ciencia/lugares-mas-radiactivos-planeta-dosis-equivalente-comer-platano.html</guid>
+         <category>Ciencia</category>
+         <pubDate>Thu, 07 Dec 2017 09:14:32 +0100</pubDate>
+         <!-- ItemID 147881 -->
+      </item>
+      
+      <item>
+      <title>La cápsula de carga Cygnus OA-8 abandona la EEI</title>
+<author>wicho@microsiervos.com (Wicho)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="https://twitter.com/AstroKomrade/status/938212166812909569"><img src="http://img.microsiervos.com/images2017/CygnusOA8SeVa.jpg" width="100%" alt="Adiosito…" title="Adiosito…" /></a></p>
+
+<p>La cápsula de carga <a href="http://www.microsiervos.com/archivo/espacio/capsula-carga-cygnus-oa-8-en-eei.html">Cygnus OA-8</a> «Gene Cernan» fue liberada por el brazo robot de la Estación Espacial Internacional a las 14:11, hora peninsular española, del 6 de diciembre de 2017 para que comience la última etapa de su misión.</p>
+
+<p>El objetivo final es que se incinere en una reentrada controlada en la atmósfera junto con las 2,8 toneladas de materiales de desecho y ya no necesarios en la EEI que lleva a bordo. Pero antes elevará su órbita hasta los 450 kilómetros, unos 50 más que la Estación, para <strong>liberar 14 Cubesat</strong> que lleva en unos dispensadores externos.</p>
+
+<p>Se trata de 8 <a href="http://spaceflight101.com/cygnus-oa8/lemur-2/">Lemur-2</a> de medición atmosférica y de seguimiento del tráfico marítimo; dos <a href="http://spaceflight101.com/cygnus-oa8/ocsd/">OCSD</a> que probarán un nuevo sistema de comunicaciones por láser y un nuevo sistema de propulsión; el <a href="http://spaceflight101.com/cygnus-oa8/propcube-2/">PropCube 2</a> que hará pruebas de comunicación por radio; el <a href="http://www.microsiervos.com/archivo/espacio/asgardia-primera-nacion-existe-fuera-tierra.html">Asgardia 1</a>, que es la primera nación que «existe» fuera de la Tierra; el <a href="http://spaceflight101.com/cygnus-oa8/isara/">ISARA</a>, que hará pruebas de una antena para comunicaciones en banda Ka, y el CHEFsat, que probará productos de comunicaciones de consumo para ver cómo funcionan en el espacio.</p>
+
+<p>Antes de ser liberado por el brazo robot la Gene Cernan estuvo un día haciendo pruebas de comunicaciones por radio entre ella y la EEI para comprobar si se producen interferencias que puedan afectar a aquellas naves tripuladas y cápsulas de carga que eventualmente quieran atracar en la Estación en el puerto de atraque que está en la parte superior del módulo Harmony.</p>
+
+<p>La reentrada de la Cygnus OA-8 está programada para el 18 de diciembre.</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/espacio/capsula-carga-cygnus-oa-8-abandona-eei.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/espacio/capsula-carga-cygnus-oa-8-abandona-eei.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/espacio/capsula-carga-cygnus-oa-8-abandona-eei.html</guid>
+         <category>Espacio</category>
+         <pubDate>Wed, 06 Dec 2017 20:08:02 +0100</pubDate>
+         <!-- ItemID 147880 -->
+      </item>
+      
+      <item>
+      <title>La historia de Madrid a través de sus calles como proyecto de datos e infografías</title>
+<author>alvy@microsiervos.com (Alvy)</author>
+         <description><![CDATA[<p class="imagen" align="center"><a href="http://callesdemadrid.cc/"><img src="http://img.microsiervos.com/images2017/HistoriaMadridCalles.jpg" width="100%" alt="HistoriaMadridCalles" title="HistoriaMadridCalles" /></a></p>
+
+<p>Como fruto del <a href="http://medialab-prado.es/article/datamad">Datatón Ciudad de Madrid 2017</a> organizado por Medialab-Prado y el Ayuntamiento de Madrid ya puede consultarse <a href="http://callesdemadrid.cc/"><strong>CallesDeMadrid.cc</strong></a>. No es un trabajo muy en profundidad –básicamente por falta de tiempo– pero sus planteamientos permiten llevarlo más allá y aplicarlos a cualquier ciudad, además. Básicamente consiste en una <strong>categorización de los nombres de las calles</strong> y el análisis a partir de los distritos y barrios.</p>
+
+<p>De este modo las calles se clasifican en <em>Persona, Personaje, Colectivo, Hecho, Lugar, Animal, Vegetal, Objeto, Otros</em> (o Duda); otra de las clasificaciones es <em>Nobleza, Religión, Ejército, Política, Méritos, Mitología, Ficción y Profesión</em>. Además de esto se dividen por género <em>(Masculino / Femenino)</em>.</p>
+
+<p>En la web pueden accederse a diferentes resúmenes infográficos sobre las más de 8.000 calles de la ciudad, incluyendo que de las calles dedicadas a personas casi el 90% lo están a hombres y el 10% a mujeres, y que los más homenajeados entran en la categoría de <em>Méritos</em>, seguida de <em>Religión, Nobleza, Política</em> y <em>Ejército.</em></p>
+
+<p>Con méritos debido a su profesión tan solo hay 906 hombres y 120 mujeres – lo cual es un poco <abbr title="What The Fuck, Pero Qué Coño">WTF</abbr>. En general a mi me parece también muy rancio que tengan más relevancia políticos, nobles y religiosos que científicos o personajes de otras profesiones, pero así es la historia de nuestra civilización. Quién sabe si cambiará en los próximos siglos.</p>
+
+<p class="imagen" align="center"><img src="http://img.microsiervos.com/images2017/densidad-calles.png" width="100%" alt="Densidad calles" title="Densidad calles" /></p>
+
+<p>La web también resulta interesante porque incluye algunas <strong>estadísticas interactivas sobre los habitantes por barrios y distritos</strong>, densidad de población y otros datos procedentes del censo con los que se puede «jugar» si te interesan las cuestiones urbanísticas o tu ciudad. Otro apartado simpático son las <a href="http://callesdemadrid.cc/notas-de-trabajo/">notas de trabajo</a> con pequeñas curiosidades acerca de cómo se nombran las calles, cuáles han cambiado de nombre o cuál es el proceso para ponerle nombre a las que van surgiendo con el crecimiento de la ciudad.<br />
+</p>]]>
+<![CDATA[<p><a href="http://www.microsiervos.com/archivo/mundoreal/historia-madrid-calles.html"># Enlace Permanente</a></p>]]>
+
+</description>
+         <link>http://www.microsiervos.com/archivo/mundoreal/historia-madrid-calles.html</link>
+         <guid isPermaLink="true">http://www.microsiervos.com/archivo/mundoreal/historia-madrid-calles.html</guid>
+         <category>MundoReal™</category>
+         <pubDate>Wed, 06 Dec 2017 14:15:18 +0100</pubDate>
+         <!-- ItemID 147879 -->
+      </item>
+      
+   </channel>
+</rss>

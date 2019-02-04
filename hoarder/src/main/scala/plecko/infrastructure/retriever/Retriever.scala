@@ -3,8 +3,8 @@ package plecko.infrastructure.retriever
 import scala.concurrent.ExecutionContext.Implicits.global
 import akka.actor.{Actor, ActorLogging, Props}
 import plecko.infrastructure.retriever.Retriever.Retrieve
-import plecko.PleckoApp.actorSystem
-import plecko.PleckoApp.materializer
+import plecko.HoarderApp.actorSystem
+import plecko.HoarderApp.materializer
 import akka.pattern.pipe
 
 object Retriever {
