@@ -1,29 +1,33 @@
 package plecko
 
 import akka.actor.ActorSystem
+import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
-import plecko.infrastructure.store.{JedisConnection, Store}
-import redis.clients.jedis.JedisPool
+import plecko.infrastructure.FeedDefinition
+import plecko.infrastructure.hoarder.HoarderMaster
+import plecko.infrastructure.repository.ItemRepository
 
-object HoardApp extends App {
-  val config = ConfigFactory.load("application.conf")
-  implicit val actorSystem = ActorSystem("pleckostore",config)
-  implicit val jedis: JedisConnection = jedisPool()
-
-  startActors()
+import collection.JavaConverters._
+import scala.concurrent.duration._
 
 
+object HoarderApp extends App {
+  val config = ConfigFactory.load()
+  implicit val actorSystem = ActorSystem("plecko")
+  implicit val materializer = ActorMaterializer()
+  implicit val resolveTimeout: FiniteDuration = 10 seconds
 
-  def startActors() = {
-    actorSystem.actorOf(Store.props(), Store.NAME)
-  }
 
-  def jedisPool(): JedisConnection = {
 
-    val port = actorSystem.settings.config.getInt("pleckostore.store.redis.port")
-    val host = actorSystem.settings.config.getString("pleckostore.store.redis.host")
-    val database = actorSystem.settings.config.getInt("pleckostore.store.redis.database")
-    new JedisConnection(new JedisPool(host, port), database)
-  }
+
+def readFeeds () = {
+  actorSystem.settings.config.getConfigList ("plecko.feeds").asScala.map (FeedDefinition.aFeedFrom (_) )
+}
+
+
+  private def initHoarders () = {
+  val itemRepository = actorSystem.actorOf (ItemRepository.props, ItemRepository.NAME)
+  actorSystem.actorOf (HoarderMaster.props (readFeeds (), itemRepository), HoarderMaster.NAME)
+}
 
 }

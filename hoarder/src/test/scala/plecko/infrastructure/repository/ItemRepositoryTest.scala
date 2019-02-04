@@ -4,7 +4,6 @@ import akka.actor.{ActorRef, ActorSystem}
 import akka.testkit.{ImplicitSender, TestActorRef, TestKit, TestProbe}
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 import plecko.domain.rss.Item
-import plecko.infrastructure.store.ItemPublisher.PublishItem
 
 class ItemRepositoryTest extends TestKit(ActorSystem("ItemRepository")) with ImplicitSender with WordSpecLike with Matchers with BeforeAndAfterAll {
 
@@ -18,11 +17,11 @@ class ItemRepositoryTest extends TestKit(ActorSystem("ItemRepository")) with Imp
     "send items to the store" in {
 
       val store: TestProbe = TestProbe("store")
-      val testActor = TestActorRef(new ItemRepository(store.ref))
+      val testActor = TestActorRef(new ItemRepository())
 
       testActor ! item
 
-      store.expectMsg(PublishItem(item))
+//      store.expectMsg(PublishItem(item))
     }
   }
 }

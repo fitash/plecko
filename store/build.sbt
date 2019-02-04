@@ -1,12 +1,13 @@
+
 val akkaVersion = "2.5.17"
 
-name := "plecko"
-
+name := "plecko-store"
+organization := "org.epnoi"
 version := "0.1"
 
 scalaVersion := "2.12.4"
 
-
+libraryDependencies += "org.epnoi" %% "plecko" % "0.1-SNAPSHOT"
 libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % akkaVersion
 libraryDependencies += "junit" % "junit" % "4.10" % "test"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.4" % "test"
