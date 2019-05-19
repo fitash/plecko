@@ -1,0 +1,18 @@
+endpoints:
+  metrics:
+    enabled:true
+  beans:
+    enabled: true
+  mappings:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: metrics,beans,mappings
+redis:
+  port: 6700
+
+server:
+  servlet:
+    context-path: /users
