@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service
 
 @Service
 class UserService(
-    private val findUserUseCase: FindUserUseCase,
-    private val saveUserUseCase: SaveUserUseCase,
-    private val findUsersUseCase: FindUsersUseCase
+        private val findUserUseCase: FindUserUseCase,
+        private val saveUserUseCase: SaveUserUseCase,
+        private val findUsersUseCase: FindUsersUseCase
 ) {
     fun findUser(id: String): User? = findUserUseCase.execute(id)
     fun saveUser(user: User) = saveUserUseCase.execute(user)

@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*
 @RequestMapping("/user")
 @RestController
 class UserAPI(private val userService: UserService) {
-    val logger = LoggerFactory.getLogger(UserAPI::class.java)
 
     @GetMapping(produces = [MediaType.APPLICATION_JSON_VALUE])
     fun getAll(): ResponseEntity<Set<User>> {

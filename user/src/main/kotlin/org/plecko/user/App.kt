@@ -1,10 +1,10 @@
 package org.plecko.user
 
+import org.slf4j.LoggerFactory
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationProperties
-import org.springframework.context.annotation.Profile
 
 
 @SpringBootApplication
@@ -12,8 +12,9 @@ import org.springframework.context.annotation.Profile
 @ConfigurationProperties
 
 open class App
+
 fun main(args: Array<String>) {
-    println("Starting")
+    val logger = LoggerFactory.getLogger(App::class.java)
+    logger.info("User is starting")
     SpringApplication.run(App::class.java, *args)
-    println("Ending")
 }
